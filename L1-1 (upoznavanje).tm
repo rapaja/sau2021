@@ -38,7 +38,7 @@
     <\padded-center>
       <tabular|<tformat|<cwith|1|1|1|1|cell-row-span|1>|<cwith|1|1|1|1|cell-col-span|3>|<cwith|1|1|1|1|cell-halign|c>|<table|<row|<cell|<with|font-series|bold|ASISTENTI>>|<cell|>|<cell|>>|<row|<cell|<person|Aleksandra
       Mitrovi¢>>|<cell|NTP 414>|<cell|<verbatim|aleksandra.mitrovic@uns.ac.rs>>>|<row|<cell|<person|Smilja
-      Stokanovi¢>>|<cell|NTP 414>|<cell|<verbatim|aleksandra.mitrovic@uns.ac.rs>>>|<row|<cell|<person|Jovana
+      Stokanovi¢>>|<cell|NTP 414>|<cell|<verbatim|smiljastokanovic@uns.ac.rs>>>|<row|<cell|<person|Jovana
       Arsenovi¢>>|<cell|NTP 414>|<cell|<verbatim|arsenovic.jovana@uns.ac.rs>>>|<row|<cell|<person|Ilija
       Kamenko>>|<cell|NTP 414>|<cell|<verbatim|kamenko@uns.ac.rs>>>|<row|<cell|<person|Nikolina
       Maravi¢>>|<cell|NTP 409>|<cell|<verbatim|nikolina.maravic@uns.ac.rs>>>|<row|<cell|<person|Nedeljko
@@ -51,10 +51,8 @@
     odrežuju u dogovoru sa predmetnim nastavnikom ili asistentom.
     Konsultacije se po pravilu vr²e <with|font-shape|italic|on-line>, putem
     <verbatim|Teams> platforme, ali se iznimno mogu odrºati i uºivo.
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <tit|Osnovne informacije o na£inu izvoženja nastave>
-
-    \;
 
     Predmet se izvodi studentima druge godine studijskih programa
     <with|font-series|bold|Ra£unarstvo i automatika> (E2) i
@@ -63,15 +61,29 @@
     Nastava se izvodi on-line, pomo¢u platforme <verbatim|Teams>.
 
     Nastavni materijali, uklju£uju¢i video zapise sa predavanja i veºbi,
-    skripte i sl. bi¢e deljeni pomo¢u platforme <verbatim|Canvas>.\ 
+    skripte i sl. bi¢e deljeni pomo¢u platforme <verbatim|Canvas>.
+
+    <\padded-center>
+      <hlink|https://canvas.ftn.uns.ac.rs/courses/1852
+      (RiA)|https://canvas.ftn.uns.ac.rs/courses/1852>
+    </padded-center>
+
+    <\padded-center>
+      <hlink|https://canvas.ftn.uns.ac.rs/courses/2420
+      (MiR)|https://canvas.ftn.uns.ac.rs/courses/2420>
+    </padded-center>
 
     Nastavni materijali ¢e takože biti deljeni putem sajta predmeta, kome se
     moºe pristupiti preko sajta Odseka
 
     <\padded-center>
-      <slink|www.automatika.ftn.uns.ac.rs>
+      <slink|www.automatika.ftn.uns.ac.rs/sau>
     </padded-center>
-  </shown>|<\hidden>
+
+    Iako na sajtu formalno postoje dva odvojena predmeta, sve informacije ¢e
+    se voditi na jednom mestu, odnosno u okviru predmeta SAU na E2.
+    Odgovaraju¢e obave²tenje i link su postavljeni na sajt predmeta za MiR.
+  </hidden>|<\hidden>
     <tit|Bodovanje>
 
     \;
@@ -134,6 +146,9 @@
       kolokvijumi se ne smatraju predispitnim obavezama ve¢ delovima ispita,
       te vaºe dva uzastopna ispitna roka.
 
+      <item><with|color|red|Nakon julskog ispitnog roka, pismeni ispit se
+      moºe polagati isklju£ivo u celosti.>
+
       <item>Studentima koji poloºe OBA kolokvijuma (tokom semestra, u junskom
       ili julskom ispitnom roku) pismeni ispit se automatski priznaje. Bodovi
       sa pismenog ispita se ra£unaju po formuli
@@ -151,7 +166,7 @@
       7.5 bodova, tada u ukupnom zbiru ima 50 bodova, a jedan dodatni bod
       neophodan za ostvarivanje ocene 6 mu se dodaje.
     </itemize>
-  </hidden>|<\hidden>
+  </hidden>|<\shown>
     <tit|Ograni£enja>
 
     <\itemize>
@@ -160,7 +175,7 @@
       na jednom od njih, taj kolokvijum mogu poni²titi i ponovo polagati, pod
       istim uslovima kao da taj deo ispita nikada ranije nije polagan.
 
-      <item>FTN je uveo koncept elektronskog potipsa. To zna£i da studenti
+      <item>FTN je uveo koncept elektronskog potpisa. To zna£i da studenti
       koji nisu ostvarili pravo na potpis do kraja semestra (ili iznimno do
       kraja junskog roka) ne¢e mo¢i prijaviti, a samim tim ni polagati ispit.
 
@@ -175,7 +190,7 @@
       eventualne dodatne bodove, kao i na pravo da ispit poloºe bez polaganja
       usmenog ispita.
     </itemize>
-  </hidden>|<\hidden>
+  </shown>|<\hidden>
     <tit|Literatura>
 
     \;
@@ -197,6 +212,7 @@
 
 <\initial>
   <\collection>
+    <associate|info-flag|minimal>
     <associate|page-height|auto>
     <associate|page-medium|paper>
     <associate|page-type|8:5>
