@@ -11,8 +11,9 @@
     \;
 
     <doc-data|<doc-title|Uvod u sisteme automatskog
-    upravljanja>|<doc-subtitle|SAU L1-2>|<doc-author|<\author-data|<author-name|Milan
-    R. Rapai¢>|<\author-affiliation>
+    upravljanja>|<doc-subtitle|SAU L1-2 &
+    L2-1>|<doc-author|<\author-data|<author-name|Milan R.
+    Rapai¢>|<\author-affiliation>
       Katedra za automatsko upravljanje
 
       Departman za ra£unarstvo i automatiku
@@ -28,22 +29,28 @@
       \;
     </author-data>>>
   </hidden>|<\hidden>
-    <tit|Ciljevi dana≤njeg £asa>
+    <tit|Ciljevi uvodnih £asova>
 
-    \;
+    <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.450001gh>>|gr-geometry|<tuple|geometry|1par|0.496507par|center>|<graphics||<\document-at>
+      1. Upoznati se sa osnovnim primerima, zadacima i problemima
+      upravljanja.
+    </document-at|<point|-6.10654|3.1988>>|<\document-at>
+      2. Definisati koncept <with|font-series|bold|OSNOVNOG KOLA>
+      <with|font-series|bold|S>istema <with|font-series|bold|A>utomatskog
+      <with|font-series|bold|U>pravljanja
+    </document-at|<point|-5.38963843467603|2.39629193700573>>|<\document-at>
+      3. Upoznati se sa osnovnim principima rada
+      <with|font-series|bold|upravlja£kih> ureûaja
+    </document-at|<point|-3.66692606246899|-0.353627812417926>>|<\document-at>
+      4. Definisati okvire i ciljeva predmeta\ 
 
-    <\enumerate>
-      <item>Upoznati se sa osnovnim primerima, zadacima i problemima
-      upravljanja
+      <with|font-series|bold|\PSistemi automatskog upravljanja\Q>
+    </document-at|<point|-2.77881968425046|-1.03843273056234>>|<\document-at>
+      5. Izvr≤iti <with|font-series|bold|razvrstavanje sistema prema tipu
+      modela> pomo¢u
 
-      <item>Definisati koncept \Posnovnog kola\Q sistema automatskog
-      upravljanja
-
-      <item>Upoznati se sa osnovnim principima rada upravlja£kih ureûaja
-
-      <item>Definisati okvire i ciljeve predmeta \PSistemi automatskog
-      upravljanja\Q
-    </enumerate>
+      kojih ih opisujemo.
+    </document-at|<point|-2.04051|-2.19705>>>>
   </hidden>|<\hidden>
     <tit|Upravljanje: <strong|íta je?> i <strong|Éemu slu∫i?>>
 
@@ -99,7 +106,7 @@
         odlu£ivanje su blisko povezani.
       </document-at|<point|4.43282783576355|-4.21916675583397>>>>>
     </gr-screen>
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <tit|Signali i sistemi 1/2>
 
     <\gr-screen>
@@ -141,7 +148,7 @@
         koje se menjaju u vremenu.
       </document-at|<point|0.46306041652481|-3.04013501551511>>>>>
     </gr-screen>
-  </shown>|<\hidden>
+  </hidden>|<\hidden>
     <tit|Signali i sistemi 2/2>
 
     <\gr-screen>
@@ -253,7 +260,7 @@
     <tit|Osnovno kolo SAU>
 
     <\gr-screen>
-      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|0.707101cm|<tuple|0.306438gw|0.953552gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|empty>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|9|none>>|gr-edit-grid|<tuple|empty>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-arrow-end|\<gtr\>|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|9|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|9|#e0e0ff>>|magnify|0.707106780759852|gr-dash-style|11100|<graphics||<line|<point|2|-1>|<point|2.0|-3.0>|<point|4.0|-3.0>|<point|4.0|-1.0>|<point|2.0|-1.0>>|<line|<point|6|-1>|<point|6.0|-3.0>|<point|8.0|-3.0>|<point|8.0|-1.0>|<point|6.0|-1.0>>|<line|<point|9|-1>|<point|9.0|-3.0>|<point|11.0|-3.0>|<point|11.0|-1.0>|<point|9.0|-1.0>>|<line|<point|6|-4>|<point|8.0|-4.0>|<point|8.0|-6.0>|<point|6.0|-6.0>|<point|6.0|-4.0>>|<with|arrow-end|\<gtr\>|<line|<point|1|-2>|<point|2.0|-2.0>>>|<with|arrow-end|\<gtr\>|<line|<point|4|-2>|<point|6.0|-2.0>>>|<with|arrow-end|\<gtr\>|<line|<point|8|-2>|<point|9.0|-2.0>>>|<with|arrow-end|\<gtr\>|<line|<point|11|-2>|<point|12.0|-2.0>>>|<with|arrow-end|\<gtr\>|<line|<point|11.5|-2>|<point|11.5|-5.0>|<point|8.0|-5.0>>>|<with|arrow-end|\<gtr\>|<line|<point|6|-5>|<point|3.0|-5.0>|<point|3.0|-3.0>>>|<\document-at>
+      <with|gr-mode|<tuple|group-edit|edit-props>|gr-frame|<tuple|scale|0.707101cm|<tuple|0.306438gw|0.953552gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|empty>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|9|none>>|gr-edit-grid|<tuple|empty>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-arrow-end|\<gtr\>|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|9|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|9|#e0e0ff>>|magnify|0.707106780759852|gr-dash-style|11100|<graphics||<with|line-width|5ln|<line|<point|2|-1>|<point|2.0|-3.0>|<point|4.0|-3.0>|<point|4.0|-1.0>|<point|2.0|-1.0>>>|<with|line-width|5ln|<line|<point|6|-1>|<point|6.0|-3.0>|<point|8.0|-3.0>|<point|8.0|-1.0>|<point|6.0|-1.0>>>|<with|line-width|5ln|<line|<point|9|-1>|<point|9.0|-3.0>|<point|11.0|-3.0>|<point|11.0|-1.0>|<point|9.0|-1.0>>>|<with|line-width|5ln|color|red|<line|<point|6|-4>|<point|8.0|-4.0>|<point|8.0|-6.0>|<point|6.0|-6.0>|<point|6.0|-4.0>>>|<with|arrow-end|\<gtr\>|<line|<point|1|-2>|<point|2.0|-2.0>>>|<with|arrow-end|\<gtr\>|<line|<point|4|-2>|<point|6.0|-2.0>>>|<with|arrow-end|\<gtr\>|<line|<point|8|-2>|<point|9.0|-2.0>>>|<with|arrow-end|\<gtr\>|<line|<point|11|-2>|<point|12.0|-2.0>>>|<with|arrow-end|\<gtr\>|color|red|<line|<point|11.5|-2>|<point|11.5|-5.0>|<point|8.0|-5.0>>>|<with|arrow-end|\<gtr\>|color|red|<line|<point|6|-5>|<point|3.0|-5.0>|<point|3.0|-3.0>>>|<\document-at>
         referenca
       </document-at|<point|0.441426806610702|-1.55823273639874>>|<\document-at>
         zadata (∫eljena) vrednost
@@ -275,11 +282,11 @@
         upravljana
 
         veli£ina
-      </document-at|<point|11.2798653735786|-1.09311012324543>>|<\document-at>
+      </document-at|<point|11.2798653735786|-1.09311012324543>>|<with|color|red|<\document-at>
         merni\ 
 
         ureûaj
-      </document-at|<point|6.33658550820501|-4.59775492933086>>|<\document-at>
+      </document-at|<point|6.33658550820501|-4.59775492933086>>>|<\document-at>
         objekat
 
         upravljanja
@@ -310,38 +317,348 @@
         upravlja£kom petljom>.
       </document-at|<point|-5.40729378748693|-7.28318109283002>>|<\document-at>
         \;
-      </document-at|<point|-4.99426|-6.08998>>>>
+      </document-at|<point|-4.99426|-6.08998>>|<\document-at>
+        Postoje dve osnovne metodologije
+
+        projektovanja upravlja£kih sistema:
+
+        - upravljanje u otvorenoj sprezi (bez merenja)
+
+        - upravljanje u zatvorenoj sprezi
+      </document-at|<point|-5.37130633357178|-3.16795520827601>>>>
     </gr-screen>
   </hidden>|<\hidden>
     <tit|Elementi osnovnog kola SAU>
 
     <\itemize>
-      <item>UPRAVLJAÉKI URE\<#110\>AJ (regulator) : To je ureûaj (danas
-      redovno digitalni, zasnovan na odgovaraju¢em procesoru) koji
-      implementira zakon upravljanja. U slu£aju digitalnih upravlja£kih
-      ureûaja, zakon upravljanja se implementira u vidu odgovaraju¢eg koda
-      (softvera). Jedan upravlja£ki ureûaj mo∫e upravljati ve¢im brojem
-      upravlja£kih petlji (kola SAU).
+      <item><with|font-series|bold|UPRAVLJAÉKI URE\<#110\>AJ> (regulator) :
+      To je ureûaj (danas redovno digitalni, zasnovan na odgovaraju¢em
+      procesoru) koji implementira zakon upravljanja. U slu£aju digitalnih
+      upravlja£kih ureûaja, zakon upravljanja se implementira u vidu
+      odgovaraju¢eg koda (softvera). Jedan upravlja£ki ureûaj mo∫e upravljati
+      ve¢im brojem upravlja£kih petlji (kola SAU).
 
-      <item>IZVRíNI ORGAN (aktuator) : To je ureûaj koji signale male snage
-      koje tipi£no daje upravlja£ki ureûaj poja£avaju i transformi≤u tako da
-      mo∫e efektivno uticati na objekar upravljanja.
+      <item><with|font-series|bold|IZVRíNI ORGAN> (aktuator) : To je ureûaj
+      koji signale male snage koje tipi£no daje upravlja£ki ureûaj poja£avaju
+      i transformi≤u tako da mo∫e efektivno uticati na objekar upravljanja.
 
-      <item>OBJEKAT UPRAVLJANJA (proces) : Predstavlja centralnu komponentu
-      osnovnog kola SAU sa stanovi≤ta njegove primene (ne sa stanovi≤ta
-      projektovanja sistema upravljanja, ve¢ sa stanovi≤ta primene sistema
-      upravljanja). To je sistem na £ije pona≤anje ∫elimo uticati kako bi smo
-      zadovoljili odreûenu potrebu, ostvarili korist, odnosno postigli cilj
-      (≤ta god taj cilj bio u konkretnom slu£aju).
+      <item><with|font-series|bold|OBJEKAT UPRAVLJANJA> (proces) :
+      Predstavlja centralnu komponentu osnovnog kola SAU sa stanovi≤ta
+      njegove primene (ne sa stanovi≤ta projektovanja sistema upravljanja,
+      ve¢ sa stanovi≤ta primene sistema upravljanja). To je sistem na £ije
+      pona≤anje ∫elimo uticati kako bi smo zadovoljili odreûenu potrebu,
+      ostvarili korist, odnosno postigli cilj (≤ta god taj cilj bio u
+      konkretnom slu£aju).
 
-      <item>MERNI URE\<#110\>AJ (senzor) : To je ureûaj koji informacije o
-      teku¢oj vrednosti upravljane veli£ine \Pdetektuje\Q i prenosi do
-      upravlja£kog ureûaja. U tom smislu, ovaj ureûaj vr≤i dve funkcije:
-      senzorsku i transmitersku, tj. on pretvara upravljanu veli£inu u
-      (elektronski) signal pogodan za prenos, te prenosi taj signal do
-      upravlja£kog ureûaja.
+      <item><with|font-series|bold|MERNI URE\<#110\>AJ> (senzor) : To je
+      ureûaj koji informacije o teku¢oj vrednosti upravljane veli£ine
+      \Pdetektuje\Q i prenosi do upravlja£kog ureûaja. U tom smislu, ovaj
+      ureûaj vr≤i dve funkcije: senzorsku i transmitersku, tj. on pretvara
+      upravljanu veli£inu u (elektronski) signal pogodan za prenos, te
+      prenosi taj signal do upravlja£kog ureûaja.
     </itemize>
-  </hidden>>
+  </hidden>|<\hidden>
+    <tit|Savremeni (\Pdigitalni\Q) upravlja£ki ureûaj>
+
+    <\gr-screen>
+      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|-0.039998gw|0.900003gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|empty>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|empty>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-line-width|0.5ln|gr-dash-style|11100|gr-arrow-end|\<gtr\>|<graphics||<with|arrow-end|\<gtr\>|<line|<point|6.01375932608971|-2.1448819586977>|<point|7.0137593260897|-2.1448819586977>>>|<with|arrow-end|\<gtr\>|<line|<point|6.0|-1.5>|<point|7.0|-1.5>>>|<with|arrow-end|\<gtr\>|<line|<point|4.3|-4.0>|<point|4.3|-3.0>>>|<with|arrow-end|\<gtr\>|<line|<point|6.01375932608971|-2.4448819586977>|<point|7.0137593260897|-2.4448819586977>>>|<with|arrow-end|\<gtr\>|<line|<point|6.01375932608971|-2.7448819586977>|<point|7.0137593260897|-2.7448819586977>>>|<with|arrow-end|\<gtr\>|<line|<point|6.0|-1.3>|<point|7.0|-1.3>>>|<with|arrow-end|\<gtr\>|<line|<point|2.0|-1.5>|<point|3.0|-1.5>>>|<with|line-width|2ln|fill-color|pastel
+      red|<cline|<point|3.0|-1.0>|<point|3.0|-3.0>|<point|6.0|-3.0>|<point|6.0|-1.0>>>|<with|arrow-end|\<gtr\>|<line|<point|2.0|-2.5>|<point|3.0|-2.5>>>|<with|arrow-end|\<gtr\>|<line|<point|3.6|-4.0>|<point|3.6|-3.0>>>|<with|arrow-end|\<gtr\>|<line|<point|2.0|-2.0>|<point|3.0|-2.0>>>|<with|arrow-end|\<gtr\>|<line|<point|4.0|-4.0>|<point|4.0|-3.0>>>|<with|line-width|2ln|fill-color|pastel
+      cyan|<cline|<point|3|-4>|<point|5.0|-4.0>|<point|5.0|-5.0>|<point|3.0|-5.0>>>|<with|line-width|2ln|fill-color|pastel
+      cyan|<cline|<point|7.0137593260897|-1.8448819586977>|<point|7.0137593260897|-2.9448819586977>|<point|9.0137593260897|-2.9448819586977>|<point|9.0137593260897|-1.8448819586977>>>|<\document-at>
+        upravlja£ki
+
+        ureûaj
+      </document-at|<point|3.5|-1.7>>|<\document-at>
+        ADC
+      </document-at|<point|3.6|-4.4>>|<\document-at>
+        DAC
+      </document-at|<point|7.6137593260897|-2.3448819586977>>|<\document-at>
+        komunikacija sa drugim
+
+        upravlja£kim ureûajima i
+
+        nadzorno-upravlja£kim softverom
+      </document-at|<point|0.8|0.6>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|dash-style|11100|<spline|<point|1.5|-1.0>|<point|1.3|-1.6>|<point|1.8|-2.1>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|dash-style|11100|<spline|<point|5.40447263212163|0.17539371419122>|<point|7.4|0.0>|<point|7.0|-0.7>>>|<\document-at>
+        \Pkomunikacija\Q (upravljanje, merenje, prenos
+
+        informacija, <text-dots>) sa \Pfizi£kim svetom\Q odnosno
+
+        objektom upravljanja (preko izvr≤nog organa
+
+        i mernog ureûaja).
+      </document-at|<point|7.3|-4.3>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|dash-style|11100|<spline|<point|7|-5>|<point|6.0|-5.5>|<point|5.1|-5.0>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|dash-style|11100|<spline|<point|9.7|-4.2>|<point|10.5|-3.2>|<point|9.1|-2.4>>>|<\document-at>
+        <with|font-series|bold|DAC> = Digitalno-Analogni Konvertor
+      </document-at|<point|8.2|0.4>>|<\document-at>
+        <with|font-series|bold|ADC> = Analogno-Digitalni Konvertor
+      </document-at|<point|8.2|-0.0551151230995204>>>>
+    </gr-screen>
+  </hidden>|<\hidden>
+    <tit|Osnovni ciklus digitalnog upravlja£kog ureûaja>
+
+    <\gr-screen>
+      <with|gr-mode|<tuple|edit|spline>|gr-frame|<tuple|scale|1cm|<tuple|0.0899955gw|0.130022gh>>|gr-geometry|<tuple|geometry|1gpar|1.01214gpag|axis>|gr-grid|<tuple|empty>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|empty>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-point-size|5ln|gr-arrow-end|\<gtr\>|gr-line-width|0.5ln|gr-dash-style|11100|<graphics||<with|line-width|2ln|<cline|<point|0|5>|<point|0.0|3.5>|<point|3.0|3.5>|<point|3.0|5.0>>>|<with|line-width|2ln|color|dark
+      blue|fill-color|#aff|<cline|<point|3.4|4>|<point|3.4|2.0>|<point|7.0|2.0>|<point|7.0|4.0>>>|<with|line-width|2ln|<cline|<point|7.4|2.4>|<point|7.4|1.0>|<point|11.0|1.0>|<point|11.0|2.4>>>|<\document-at>
+        AD konverzija
+      </document-at|<point|0.5|4.4>>|<\document-at>
+        DA konverzija
+      </document-at|<point|8.3|1.8>>|<\document-at>
+        Algoritam\ 
+
+        upravljanja
+      </document-at|<point|4|3.3>>|<with|arrow-end|\<gtr\>|<line|<point|-0.8|0>|<point|12.0|0.0>>>|<with|dash-style|11100|<line|<point|0|3.5>|<point|0.0|-0.8>>>|<with|dash-style|11100|<line|<point|11|1>|<point|11.0|-0.9>>>|<\document-at>
+        vreme
+      </document-at|<point|11.2|-0.3>>|<with|arrow-end|\<gtr\>|arrow-begin|\<less\>|<line|<point|0|-0.5>|<point|11.0|-0.5>>>|<\document-at>
+        ciklus skeniranja / vreme odabiranja
+      </document-at|<point|3.0|-0.0999999999999999>>|<with|line-width|2ln|arrow-end|\<gtr\>\<gtr\>|dash-style|11100|<line|<point|1.4|3.5>|<point|1.4|2.5>|<point|3.3|2.5>>>|<with|line-width|2ln|arrow-end|\<gtr\>\<gtr\>|dash-style|11100|<line|<point|5.6|2>|<point|5.6|1.3>|<point|7.3|1.3>>>|<\document-at>
+        <\with|font-base-size|8>
+          U ve¢ini savremenih upravlja£kih petlji strogi zahtev
+
+          je da ciklus skeniranja (vreme odabiranja) bude
+
+          konstantno. Algoritam upravljanja mora biti projektovan
+
+          i implementiran tako da se izvr≤i za vreme trajanja jednog
+
+          ciklusa!
+        </with>
+      </document-at|<point|4.20406992013852|5.88116105561122>>|<\document-at>
+        Rad u \Prealnom vremenu\Q!
+      </document-at|<point|8.21018|3.54426>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|dash-style|11100|<spline|<point|8.64669|3.65801>|<point|9.73776057118956|3.96915459665574>|<point|9.54554828166493|4.47497641119423>>>>>
+    </gr-screen>
+  </hidden>|<\hidden>
+    <tit|Analogni i digitalni signali i sistemi>
+
+    <\gr-screen>
+      <with|gr-mode|<tuple|edit|point>|gr-frame|<tuple|scale|1cm|<tuple|0.0899955gw|0.130022gh>>|gr-geometry|<tuple|geometry|1gpar|0.575013gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-color|red|gr-point-size|5ln|<graphics||<with|arrow-end|\<gtr\>|<line|<point|-1|0>|<point|11.0|0.0>>>|<with|arrow-end|\<gtr\>|<line|<point|0|-0.5>|<point|0.0|3.3>>>|<\document-at>
+        vreme
+      </document-at|<point|10.0|-0.0999999999999999>>|<\document-at>
+        vrednosti signala
+      </document-at|<point|0.3|3.2>>|<with|color|blue|<spline|<point|-0.5|1.4>|<point|1.0|0.6>|<point|3.4|0.6>|<point|5.4|1.7>|<point|6.8|2.8>|<point|7.6|2.5>|<point|9.2|0.8>|<point|11.0|0.3>>>|<with|color|red|point-size|5ln|<point|1|0.6>>|<with|color|red|point-size|5ln|<point|2|0.384015>>|<with|color|red|point-size|5ln|<point|3|0.5>>|<with|color|red|point-size|5ln|<point|4|0.83518>>|<with|color|red|point-size|5ln|<point|5|1.42138>>|<with|color|red|point-size|5ln|<point|6.0|2.17456905885403>>|<with|color|red|point-size|5ln|<point|7|2.87568>>|<with|color|red|point-size|5ln|<point|7.95767|2>>|<with|color|red|point-size|5ln|<point|9|0.9>>|<with|color|red|point-size|5ln|<point|10|0.504621>>>>
+    </gr-screen>
+
+    <\with|font-base-size|9>
+      Umesto o analognim i digitalnim sistemima (i signalima) u okviru ovog
+      predmeta £e≤¢e ¢emo govoriti o vremenski diskretnim i vremenki
+      kontinualnim.\ 
+
+      Velika ve¢ina savremenih upravlja£kih ureûaja su vremenski diskretni
+      (zapravo digitalni), ali je zato velika ve¢ina objekata upravljanja
+      vremenski kontinualna (zapravo analogna).
+      <strong|<with|font-series|bold|Cilj ovog predmeta je upoznavanje sa
+      osnovnim elementima analize i sinteze sistema upravljanja>>, pa dakle
+      sa zakonima upravljanja. <with|font-series|bold|Problemima
+      implementacije ovih zakona na konkretnim upravlja£kim ureûajima bave se
+      drugi predmeti> (sa kojima ¢ete se \U u manjoj ili ve¢oj meri \U
+      sretati tokom budu¢eg ≤kolovanja).
+    </with>
+  </hidden>|<\hidden>
+    <tit|Pojam modela sistema (procesa)>
+
+    \;
+
+    Model nekog sistema je drugi sistem (zamenski sistem) koji se (u nekom
+    smislu) pona≤a nalik sistemu koji modelujemo.
+
+    Model se uvodi da bi se na njemu vr≤ili eksperimenti. Model je koristan
+    zato ≤to je na njemu \Pzgodnije\Q (lak≤e, br∫e, jeftinije, <text-dots>)
+    eksperimentisati.
+
+    <strong|Model nam slu∫i da \Pna brz i jeftin na£in\Q steknemo iskustvo.>
+    U primenama nikada zaista ne radimo samo sa jednim modelom, ve¢ sa
+    £itavom klasom modela, razli£itog stepena verodostojnosti i slo∫enosti.
+    Obi£no se najjednostavniji modeli koriste prilikom projektovanja
+    upravlja£kih strategija. Ne≤to slo∫eniji modeli se koriste pri testiranju
+    i validaciji tih strategija. Jo≤ slo∫eniji modeli pri testiranju
+    integracije upravlja£kog sistema sa drugim komponentama sistema koji
+    projektujemo, itd.\ 
+
+    Postoje razli£iti tipovi modela: analiti£ki, simulacioni, fizi£ki
+    (laboratorijski), <text-dots> U okviru ovog predmeta bavi¢emo se
+    prvenstveno analiti£kim i simulacionim modelima. Modeli ovog tipa su
+    nezamenjivo i dragoceno pomo¢no sredstvo prilikom projektovanja i
+    inicijalne verifikacije razli£itih upravlja£kih algoritama.
+  </hidden>|<\hidden>
+    <tit|Mat. modeli: stati£ki i <strong|dinami£ki> procesi 1/2>
+
+    <\gr-screen>
+      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|<graphics||<line|<point|1|-2>|<point|2.0|-2.0>>|<line|<point|2|-1>|<point|2.0|-3.0>|<point|4.0|-2.0>|<point|2.0|-1.0>>|<line|<point|4|-2>|<point|5.0|-2.0>>|<math-at|u|<point|1.1|-1.8>>|<math-at|4|<point|2.6|-2>>|<math-at|4
+      u|<point|4.6|-1.7>>|<line|<point|1|-5>|<point|2.0|-5.0>>|<line|<point|2|-4>|<point|2.0|-6.0>|<point|4.0|-5.0>|<point|2.0|-4.0>>|<line|<point|4|-5>|<point|5.0|-5.0>>|<math-at|2
+      t|<point|2.5|-5>>|<math-at|u|<point|1.2|-4.7>>|<math-at|2 t
+      u|<point|4.7|-4.7>>|<line|<point|7|-2>|<point|8.0|-2.0>>|<line|<point|8|-1>|<point|8.0|-3.0>|<point|11.0|-3.0>|<point|11.0|-1.0>|<point|8.0|-1.0>>|<line|<point|11|-2>|<point|12.0|-2.0>>|<math-at|u|<point|6.9|-1.7>>|<math-at|y|<point|11.6|-1.6>>|<line|<point|8|-4>|<point|8.0|-6.0>|<point|11.0|-6.0>|<point|11.0|-4.0>|<point|8.0|-4.0>>|<line|<point|7|-5>|<point|8.0|-5.0>>|<line|<point|11|-5>|<point|12.0|-5.0>>|<math-at|u|<point|7.1|-4.8>>|<math-at|y|<point|11.7|-4.8>>|<math-at|y<around*|(|t|)>=u<around*|(|t|)>-u<around*|(|t-2|)>|<point|8.2|-2.5>>|<math-at|<wide|y|\<dot\>>=2
+      t y+3u|<point|8.3|-5.5>>|<\document-at>
+        STATIÉKI NESTACIONARAN MODEL
+      </document-at|<point|1.0|-3.4>>|<\document-at>
+        \;
+      </document-at|<point|1.0|-0.4>>|<\document-at>
+        STATIÉKI STACIONARAN MODEL
+      </document-at|<point|1.0|-0.286256237658434>>|<\document-at>
+        DINAMIÉKI STACIONARNI MODEL
+      </document-at|<point|7.3|-0.3>>|<\document-at>
+        DINAMIÉKI NESTACIONARAN MODEL
+      </document-at|<point|7.0|-3.4>>|<\document-at>
+        <math|t> je vreme
+      </document-at|<point|0.1|-6.3>>>>
+    </gr-screen>
+  </hidden>|<\hidden>
+    <tit|Mat. modeli: stati£ki i <strong|dinami£ki> procesi 2/2>
+
+    <\itemize>
+      <item><strong|Stati£ki modeli> su oni kod kojih su trenutne vrednosti
+      izlaznih veli£ina posledica trenutnih vrednosti ulaza. Dakle, kod
+      stati£kih modela trenutne vrednosti izlaza ne zavise od nekih
+      prethodnih vrednosti ulaza (niti od nekih skrivenih, unutra≤njih
+      promenljivih).
+
+      <item><strong|Dinami£ki modeli> su oni koji nisu stati£ki. Kod njih
+      vrednosti izlaza modela zavise ne samo od trenutnih ve¢ i od prethodnih
+      vrednosti ulaza (obi£no na posredan na£in, putem odreûenog broja
+      skrivenih promenljivih koje nazivamo promenljivama stanja). To su,
+      dakle, modeli sa memorijom.
+    </itemize>
+
+    <\ornamented>
+      <with|font-base-size|8|Pojmove stati£ki/dinami£ki treba jasno
+      razlikovati od pojmova stacionaran/nestacionaran. Iako je koren re£i
+      isti, ovo su dve jasno razgrani£ene podele. Stacionarni modeli mogu
+      biti stati£ki ili dinami£ki. Isto va∫i i za nestacionarne modele.
+      Stacionarnost podrazumeva nepromenljivost (invarijantnost) u vremenu.
+      <strong|Stacionarnost podrazumeva da se veza izmeûu ulaza i izlaza (bez
+      obzira da li je stati£ka ili dinami£ka) ne menja u vremenu.>>
+    </ornamented>
+
+    <\framed>
+      Sa stanovi≤ta primena u upravljanju i obradi signala prvevashodno su
+      interesantni dinami£ki stacionarni (vremenski invarijantni) modeli, pa
+      ¢emo se takvim modelima u nastavku najvi≤e i baviti.
+    </framed>
+  </hidden>|<\hidden>
+    <tit|Mat. modeli: vremenski diskretni i <strong|kontinualni>>
+
+    Vreme mo∫emo opisati na ve¢i broj na£ina. Dominantno se koriste slede¢a
+    dva:
+
+    <\itemize>
+      <item><strong|Kontinualan opis vremena>, kod koga se vreme modeluje kao
+      neprekidan tok u kome izmeûu bilo koja dva razli£ita vremenska trenutka
+      postoji kontinuum drugih trenutaka. Ovakav opis vremena je pogodan za
+      opisivanja fizi£kog sveta koji nas okru∫uje.
+
+      <item><strong|Diskretan opis vremena>, kod koga se vreme modeluje nizom
+      izolovanih, diskretnih trenutaka. Za ma koji pojedina£ni trenutak jasno
+      mo∫emo definisati neposredno prethodni i neposredno slede¢i trenutak
+      vremena. Ovakav opis je pogodan sa stanovi≤ta digitalne implementacije
+      upravlja£kih algoritama (i algoritama za obradu signala, inteligentno
+      odlu£ivanje, itd.)
+    </itemize>
+
+    <\framed>
+      Imaju¢u u vidu svrhu ovog predmeta, mi ¢emo se prvenstveno baviti
+      vremenski kontinualnim modelima. Dakle, £ak i kada govorimo o
+      algoritmima upravljanja koji ¢e se neizbe∫no implementirati na
+      digitalnim ureûajima, nas ¢e prvenstveno zanimati uticaj koji ti
+      algoritmi imaju na celokupno pona≤anje upravlja£ke petlje. Stoga ¢emo
+      se u najve¢em broju slu£ajeva baviti isklju£ivo vremenski kontinualnim
+      modelima, pa £ak i vremenski kontinualnim reprezentacijama inherentno
+      digitalnih algoritama.
+    </framed>
+  </hidden>|<\hidden>
+    <tit|Mat. modeli: prostorno <strong|koncentrisani> i raspodeljeni>
+
+    Gotovo svi fizi£ki procesi od interesa se odvijaju unutar nekog
+    vremenskog intervala i zauzimaju neki prostor. Ukoliko je prostorna
+    dimenzija zna£ajna za razumevanje pona≤anja sistema, odna govorimo o
+    prostorno raspodeljenim sistemima. Ukoliko prostorna komponenta nije
+    zna£ajna, odna se \U konceptualno barem \U kompletan sistema
+    \Pkoncentri≤e\Q (\Psa∫ima\Q) u jednu ta£ku i dalje posmatra na takav
+    na£in.
+
+    Primeri sistema koji su inherentno prostorno raspodeljeni su razli£iti
+    transportni i talasni procesi (kao ≤to su procesi provoûenja toplote,
+    zvuka, momenta, energije i sl.) Analiza razli£itih elasti£nih struktura
+    (kao ≤to su fleksibilni delovi razli£itih mehani£kih konstrukcija itd.)
+    takoûe spadaju u prostorno raspodeljene sisteme.
+
+    <\framed>
+      Ve¢ smo rekli da je sa stanovi≤ta upravljanja od interesa birati ≤to
+      jednostavnije modele. Redovno se, stoga, £ak i procesi koji su
+      inherentno prostorno raspodeljeni sa∫imaju i zamenju sa jednim ili vi≤e
+      koncentrisanih aproksimacija. Stoga ¢emo se u okviru ovog predmeta
+      prvenstveno baviti prostorno koncentrisanim modelima (tzv. sistemima sa
+      koncentrisanim parametrima).
+    </framed>
+  </hidden>|<\hidden>
+    <tit|Matemati£ki modeli: <strong|linearni> i nelinearni>
+
+    \;
+
+    Linearnost podrazumeva aditivnost i homogenost. Sistem je linearan
+    ukoliko je odziv na linearnu kombinaciju ve¢eg broja pobuda odgovaraju¢a
+    linearna kombinacija odziva koje bi smo dobili da svaka pobuda deluje
+    pojedina£no (<strong|princip superpozicije>).
+
+    U realnosti, ni jedan sistem nije zaista idealno linearan! Meûutim, veoma
+    veliki broj sistema su pribli∫no idelani u odreûenom delu svog radnog
+    opsega. Takoûe, veliki broj tehni£kih sistema se projektuje tako da budu
+    linearni.
+
+    Linearni sistemi imaju £itav niz veoma korisnih osobina. Sa stanovi≤ta
+    projektovanja upravljanja, svi osnovni upravlja£ki zakoni (PID
+    regulatori, integralni i diferencijalni kompenzatori, <text-dots>) se
+    projektuju pod pretpostavkom da su objekat upravljanja, izvr≤ni organ i
+    senzor linearni. Iako te pretpostavke nisu idealno zadovoljene u praksi,
+    pokazuje se da su svi ovi upravlja£ki zakoni izuzetno efikasni i uspe≤ni.
+
+    <\framed>
+      U okviru ovog predmeta bavi¢emo se gotovo isklju£ivo linearnim
+      sistemima.
+    </framed>
+  </hidden>|<\hidden>
+    <tit|Matemati£ki modeli \U Klasifikacija>
+
+    \;
+
+    Stati£ke sisteme opisujemo algebarskim jedna£inama, a dinami£ke
+    diferencijalnim i diferencnim jedna£inama (diferencna jedna£ina =
+    rukrzija). Kod vremenski invarijantnih (stacionarnih) sistema struktura i
+    koeficijenti ovih jedna£ina se ne menjaju tokom vremena (drugim re£ima,
+    vreme ne figuri≤e u ovim jedna£inama eksplicitno).
+
+    Vremenski kontinualni dinami£ki sistemi se opisuju diferencijalnim
+    jedna£inama, a vremenski diskretni diferencnim jedna£inama (rekurzijama).
+
+    Prostorno raspodeljeni sistemi se opisuju parcijalnim diferencijalnim i
+    diferencnim jedna£inama (u zavisnosti od toga da li su vremenski
+    kontinualni ili diskretni), a prostorno koncentrisani obi£im
+    diferencijalnim ili diferencnim jedna£inama.
+
+    <\ornamented>
+      S obzirom da ¢emo se mi u okviru ovog predmeta prvenstveno baviti
+      linearnim, vremenski kontinualnim, stacionarnim sistemima, osnovni
+      matemati£ki modeli sa kojim ¢emo se sretati jesu <strong|obi£ne,
+      linearne diferencijalne jedna£ine sa konstantnim koeficijentima>.
+    </ornamented>
+  </hidden>|<\shown>
+    <tit|Matemati£ki modeli: prostor stanja i operatorski modeli>
+
+    \;
+
+    Postoje dva ≤iroko kori≤tena pristupa modelovanju (a samim tim i analizi
+    i kasnije sintezi) linearnih, stacionarnih, sistema: prvi se zasniva na
+    konceptu prostora stanja, a drugi na operatorskim metodama (kao ≤to su
+    Laplasova transformacija u slu£aju vremenski kontinualih i
+    <math|\<cal-Z\>> transformacija u slu£aju vremenski diskretnih modela).
+
+    Sa stanovi≤ta projektovanja linearnih sistema, operatorske metode se
+    obi£no smatraju jednostavnijim za upotrebu. One su takoûe neposredno
+    povezane sa frekvencijskim metodama koje imaju nesamerljivu primenu u
+    praksi. Sa druge strane, modeli u prostoru stanja nisu specifi£ni samo za
+    linearne sisteme, te se postupci koji se na njima zasnivaju jednostavnije
+    uop≤tavaju na primere nelinearnih sistema.
+
+    <\framed>
+      U okviru ovog predmeta bavi¢emo se i jednom i drugom klasom modela.
+    </framed>
+  </shown>>
 </body>
 
 <\initial>
