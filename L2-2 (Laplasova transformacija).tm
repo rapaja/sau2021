@@ -10,8 +10,8 @@
 
     \;
 
-    <doc-data|<doc-title|Laplasova transformacija>|<doc-subtitle|SAU
-    L2-2>|<doc-author|<\author-data|<author-name|Milan R.
+    <doc-data|<doc-title|Laplasova transformacija>|<doc-subtitle|SAU L2-2 &
+    L3-1>|<doc-author|<\author-data|<author-name|Milan R.
     Rapai¢>|<\author-affiliation>
       Katedra za automatsko upravljanje
 
@@ -236,7 +236,7 @@
       f<around*|(|t|)>=<big|int><rsup|\<infty\>><rsub|0>f<around*|(|\<tau\>|)>\<delta\><around*|(|t-\<tau\>|)>
       d \<tau\>=<around*|(|f\<ast\>\<delta\>|)><around*|(|t|)>
     </equation*>
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <tit|Poreklo Laplasove transformacije>
 
     \;
@@ -257,6 +257,205 @@
     </equation*>
 
     \;
+  </hidden>|<\hidden>
+    <tit|Definicija Laplasove transformacije>
+
+    \;
+
+    <\equation*>
+      \<cal-L\><around*|{|f<around*|(|t|)>|}>=<big|int><rsup|\<infty\>><rsub|0>f<around*|(|t|)>e<rsup|-s
+      t>d t=F<around*|(|s|)>
+    </equation*>
+
+    <\equation*>
+      f:\<bbb-R\><rsup|+>\<rightarrow\>\<bbb-R\><space|2em>F:\<bbb-C\>\<rightarrow\>\<bbb-C\>
+    </equation*>
+
+    Svi signali koji nisu definisani pre nekog proizvoljno izabranog po£etnog
+    trenutka <math|t<rsub|0>> nazivaju se <strong|kauzalnim signalima>.
+    Konvencija je da se taj po£etni trenutak izjedna£ava sa nulom, odnosno da
+    je <math|t<rsub|0>=0>.\ 
+
+    PRIMER:
+
+    <\equation*>
+      \<cal-L\><around*|{|e<rsup|t>|}>=<big|int><rsub|0><rsup|\<infty\>>e<rsup|t>e<rsup|-s
+      t>d t=<big|int><rsup|\<infty\>><rsub|0>e<rsup|t<around*|(|1-s|)>>d
+      t=<frac|1|1-s>e<rsup|t<around*|(|1-s|)>><around*|\||<rsup|\<infty\>><rsub|0>|\<nobracket\>><long-arrow|\<rubber-equal\>|Re
+      s\<gtr\>1><frac|1|1-s><around*|(|0-1|)>=<frac|1|s-1>
+    </equation*>
+
+    <\equation*>
+      e<rsup|a t>=?,a=a<rsub|r>+j a<rsub|i,>e<rsup|<around*|(|a<rsub|r>+j
+      a<rsub|i>|)>t>=e<rsup|a<rsub|r>t>e<rsup|j
+      a<rsub|i>t>=e<rsup|a<rsub|r>t><around*|(|cos<around*|(|a<rsub|i>t|)>+j
+      sin<around*|(|a<rsub|i>t|)>|)>
+    </equation*>
+  </hidden>|<\hidden>
+    <tit|Analiti£ko produºenje>
+
+    <\gr-screen>
+      <with|gr-mode|<tuple|edit|math-at>|gr-frame|<tuple|scale|1cm|<tuple|0gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-color|red|gr-arrow-end|\<gtr\>|<graphics||<cspline|<point|4.32909|-1.14236>|<point|2.66999017538399|-2.27540052333103>|<point|7.677626139315|-5.20916704765425>>|<math-at|f|<point|2.8622|-0.54549>>|<cspline|<point|8.8309|-1.23341>|<point|5.91736622472107|-1.60771572814023>|<point|5.50259233679951|-3.89403032985419>|<point|5.9072497884303|-5.72510529848351>>|<math-at|g|<point|8.68927|-2.42715>>|<with|color|red|fill-color|#faa|<line|<point|5.51776|-2.08756>|<point|5.43552695025729|-2.35948391323548>|<point|5.44537774151024|-2.73220918020566>|<point|5.48391995615486|-3.19532826890958>|<point|5.49945464705744|-3.58065361199347>|<point|5.50259233679952|-3.89403032985418>|<point|5.49887028662858|-4.17923028718709>|<point|5.49388345957411|-4.35019151600855>|<point|5.79021776584847|-4.51861267132374>|<point|6.63245898659387|-4.95603593056769>|<point|7.26800723377746|-4.12731588419723>|<point|6.60497492543561|-3.27719816561684>|<point|5.98864975656732|-2.57187420551619>|<point|5.51776457779474|-2.08755927482063>>>|<with|arrow-end|\<gtr\>|color|red|<spline|<point|9.57952|-3.88391>|<point|8.0114685369104|-3.81309883952803>|<point|6.39283873038725|-4.17729054599574>>>|<with|color|red|<math-at|f\<equiv\>g|<point|9.70091|-3.6917>>>>>
+    </gr-screen>
+  </hidden>|<\hidden>
+    <tit|Laplasova transformacija izvoda>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<cal-L\><around*|{|<wide|f|\<dot\>>|}>>|<cell|=>|<cell|<big|int><rsup|\<infty\>><rsub|0><wide|f|\<dot\>><around*|(|t|)>e<rsup|-s
+      t>d t>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsup|\<infty\>><rsub|0><frac|d|d
+      t><around*|(|f<around*|(|t|)>e<rsup|-s
+      t>|)>-f<around*|(|t|)><around*|(|-s|)>e<rsup|-s t> d
+      t>>|<row|<cell|>|<cell|=>|<cell|f<around*|(|t|)>e<rsup|-s
+      t><around*|\||<rsub|0><rsup|\<infty\>>+s<big|int><rsup|\<infty\>><rsub|0>|\<nobracket\>>f<around*|(|t|)>e<rsup|-s
+      t>d t>>|<row|<cell|>|<cell|<long-arrow|\<rubber-equal\>|Re
+      s\<gtr\>0>>|<cell|s\<cal-L\><around*|{|f<around*|(|t|)>|}>-f<around*|(|0|)>>>>>
+    </eqnarray*>
+
+    \;
+
+    <\equation*>
+      \<cal-L\><around*|{|<wide|f|\<ddot\>><around*|(|t|)>|}>=s<rsup|2>F<around*|(|s|)>-s
+      f<around*|(|0|)>-<wide|f|\<dot\>><around*|(|0|)>
+    </equation*>
+
+    <\equation*>
+      \<cal-L\><around*|{|f<rsup|<around*|(|n|)>><around*|(|t|)>|}>=s<rsup|n>F<around*|(|s|)><below|<wide*|-s<rsup|n-1>f<around*|(|0|)>-s<rsup|n-2><wide|f|\<dot\>><around*|(|0|)>-\<cdots\>-f<rsup|<around*|(|n-1|)>><around*|(|0|)>|\<wide-underbrace\>>|pocetni
+      uslovi>
+    </equation*>
+  </hidden>|<\hidden>
+    <tit|Laplasova transformacija signala koji kasni>
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<cal-L\><around*|{|f<around*|(|t-\<tau\>|)>|}>>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<infty\>>f<around*|(|t-\<tau\>|)>e<rsup|-s
+      t>d t>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|-\<tau\>><rsup|\<infty\>>f<around*|(|\<xi\>|)>e<rsup|-s
+      <around*|(|\<xi\>+\<tau\>|)>>d \<xi\>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|-s
+      \<tau\>><big|int><rsub|-\<tau\>><rsup|\<infty\>>f<around*|(|\<xi\>|)>e<rsup|-s
+      \<xi\>>d \<xi\>>>|<row|<cell|>|<cell|<long-arrow|\<rubber-equal\>|kauzalnost>>|<cell|e<rsup|-s
+      \<tau\>><big|int><rsub|0><rsup|\<infty\>>f<around*|(|\<xi\>|)>e<rsup|-s
+      \<xi\>>d \<xi\>>>|<row|<cell|>|<cell|=>|<cell|e<rsup|-s \<tau\>>
+      F<around*|(|s|)>>>>>
+    </eqnarray*>
+
+    Kako bi glasila Laplasova transformacija signala koji prednja£i:
+    <math|f<around*|(|t+\<tau\>|)>>? <math|F<around*|(|s|)>e<rsup|s \<tau\>>>
+    ?
+
+    <\equation*>
+      \<cal-L\><around*|{|f<around*|(|t+\<tau\>|)>|}>=e<rsup|s
+      \<tau\>><big|int><rsub|\<tau\>><rsup|\<infty\>>f<around*|(|\<xi\>|)>e<rsup|-s
+      \<xi\>>d \<xi\>=e<rsup|s \<tau\>><around*|(|<big|int><rsub|0><rsup|\<infty\>>f<around*|(|\<xi\>|)>e<rsup|-s
+      \<xi\>>d \<xi\>-<big|int><rsub|0><rsup|\<tau\>>f<around*|(|\<xi\>|)>e<rsup|-s
+      \<xi\>>d \<xi\>|)>
+    </equation*>
+
+    <\equation*>
+      \<cal-L\><around*|{|f<around*|(|t-\<tau\>|)>|}>=F<around*|(|s|)>e<rsup|s
+      \<tau\>>-<big|int><rsub|0><rsup|\<tau\>>f<around*|(|\<xi\>|)>e<rsup|s
+      <around*|(|\<tau\>-\<xi\>|)>>d \<xi\>
+    </equation*>
+
+    \;
+  </hidden>|<\hidden>
+    <tit|Laplasova transformacija konvolucije dva signala>
+
+    \;
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|\<cal-L\><around*|{|<around*|(|f\<ast\>g|)><around*|(|t|)>|}>>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<infty\>><around*|(|f\<ast\>g|)><around*|(|t|)>e<rsup|-s
+      t>d t>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsub|0><rsup|\<infty\>><big|int><rsup|t><rsub|0>f<around*|(|\<tau\>|)>g<around*|(|t-\<tau\>|)>d
+      \<tau\> e<rsup|-s t>d t>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsup|\<infty\>><rsub|0>f<around*|(|\<tau\>|)><big|int><rsup|\<infty\>><rsub|t>g<around*|(|t-\<tau\>|)>e<rsup|-s
+      t> d t d \<tau\>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsup|\<infty\>><rsub|0>f<around*|(|\<tau\>|)><big|int><rsup|\<infty\>><rsub|0>g<around*|(|\<xi\>|)>e<rsup|-s
+      <around*|(|\<xi\>+\<tau\>|)>> d \<xi\>
+      d\<tau\>>>|<row|<cell|>|<cell|=>|<cell|<big|int><rsup|\<infty\>><rsub|0>f<around*|(|\<tau\>|)>s<rsup|-s\<tau\>>
+      d\<tau\> <big|int><rsup|\<infty\>><rsub|0>g<around*|(|\<xi\>|)>e<rsup|-s
+      <around*|(|\<xi\>+\<tau\>|)>> d \<xi\>>>|<row|<cell|>|<cell|=>|<cell|F<around*|(|s|)>
+      G<around*|(|s|)>>>>>
+    </eqnarray*>
+  </hidden>|<\hidden>
+    <tit|Primena Laplasove transformacije. Funkcija prenosa>
+
+    \;
+
+    <\equation*>
+      <wide|x|\<dot\>>+a x=b u\ 
+    </equation*>
+
+    <\equation*>
+      s X<around*|(|s|)>-x<around*|(|0|)>+a X<around*|(|s|)>=b
+      U<around*|(|s|)>
+    </equation*>
+
+    <\equation*>
+      X<around*|(|s|)><around*|(|s+a|)>=x<around*|(|0|)>+b U<around*|(|s|)>
+    </equation*>
+
+    <\equation*>
+      X<around*|(|s|)>=<below|<wide*|<frac|1|s+a>x<around*|(|0|)>|\<wide-underbrace\>>|sopstveni
+      odziv>+<below|<wide*|<frac|b|s+a> U<around*|(|s|)>|\<wide-underbrace\>>|prinudni
+      odziv>
+    </equation*>
+
+    Laplasova transformacija prinudnog odziva bilo kog linearnog,
+    stacionarnog sistema ima oblik
+
+    <\equation*>
+      X<around*|(|s|)>=G<around*|(|s|)> U<around*|(|s|)>
+    </equation*>
+
+    Klju£na stvar jeste da ova funkcija <math|G> ne zavisi od pobude i
+    karakteristi£na je za svaki sistem ponaosob. Po²to opisuje na£in na koji
+    se ulazi prenose na izlaz naziva se <strong|funkcija prenosa>.
+  </hidden>|<\hidden>
+    <tit|Funkcija prenosa i njene razli£ite definicije>
+
+    \;
+
+    <\equation*>
+      G<around*|(|s|)>=<frac|X<around*|(|s|)>|U<around*|(|s|)>><around*|\||<rsub|kada
+      su svi pocetni uslovi jednaki nuli>|\<nobracket\>>
+    </equation*>
+
+    Alternativno, funkciju prenosa moºemo definisati kao Laplasovu
+    transformaciju impulsnog odziva sistema (to je odziv koji dobijemo kada
+    sistem u miru (sa svim po£etnim uslovima jednakim nuli) pobudimo
+    jedini£nim Dirakovim impulsom)
+
+    <\eqnarray*>
+      <tformat|<table|<row|<cell|X<around*|(|s|)>=G<around*|(|s|)>U<around*|(|s|)>>|<cell|>|<cell|>>>>
+    </eqnarray*>
+
+    To zna£i da je u vremenskom domenu
+
+    <\equation*>
+      x<around*|(|t|)>=<around*|(|g\<ast\>u|)>
+    </equation*>
+
+    Dakle, za bilo koji linearan, stacionaran sistem, odziv se moºe ra£unati
+    kao konvolucija impulsnog odziva i pobude!!
+  </hidden>|<\shown>
+    <tit|Kako povratna sprega moºe da \Plinearizuje\Q sistem?>
+
+    <\gr-screen>
+      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-arrow-end|\<gtr\>|<graphics||<line|<point|3|-1>|<point|3.0|-3.0>|<point|6.0|-3.0>|<point|6.0|-1.0>|<point|3.0|-1.0>>|<line|<point|4|-4>|<point|5.0|-4.0>|<point|5.0|-5.0>|<point|4.0|-5.0>|<point|4.0|-4.0>>|<math-at|k|<point|4.4|-4.6>>|<with|arrow-end|\<gtr\>|<line|<point|6|-2>|<point|8.0|-2.0>>>|<with|arrow-end|\<gtr\>|<line|<point|7|-2>|<point|7.0|-4.5>|<point|5.0|-4.5>>>|<with|fill-color|white|<carc|<point|1.87042|-1.9>|<point|2.2|-2.1>|<point|2.0|-2.2>>>|<with|arrow-end|\<gtr\>|<line|<point|1|-2>|<point|1.8|-2.0>>>|<math-at|-|<point|2.2|-2.4>>|<math-at|u|<point|2.6|-1.7>>|<math-at|y|<point|6.4|-1.7>>|<\document-at>
+        Simulirati prikazani sistem
+
+        (u proizvoljnom alatu) i pokazati
+
+        da se za velike vrednosti poja£anja
+
+        osetljivost izlaza na oblik ove
+
+        funkcije <math|f> smanjuje.\ 
+      </document-at|<point|7.6|-2.6>>|<\document-at>
+        Probajte istu simulaciju kada je <math|k> nije obi£no
+
+        poja£anje, ve¢ je recimo <math|sign<around*|(|y|)>>
+      </document-at|<point|6.1|-5.4>>|<with|arrow-end|\<gtr\>|<line|<point|4|-4.5>|<point|2.0|-4.5>|<point|2.0|-2.2>>>|<with|arrow-end|\<gtr\>|<line|<point|2.22245177450987|-2.0>|<point|3.0|-2.0>>>|<math-at|+|<point|1.5|-1.8>>|<with|arrow-end|\<gtr\>|<line|<point|4.0|-0.5>|<point|4.0|-1.0>>>|<math-at|d|<point|4.2|-0.5>>|<math-at|<wide|y|\<dot\>>=f<around*|(|u|)>+d|<point|3.5|-2.0>>|<\document-at>
+        Pretpostavka, <math|u f<around*|(|u|)>\<gtr\>0>
+      </document-at|<point|7.6|-0.5>>|<\document-at>
+        \;
+      </document-at|<point|8.4|-1.3>>|<math-at|r=0|<point|0.5|-1.4>>>>
+    </gr-screen>
   </shown>>
 </body>
 
