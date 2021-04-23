@@ -27,7 +27,7 @@
     <|author-data>
       \;
     </author-data>>>
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <\gr-screen>
       <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|0.840896cm|<tuple|-0.000444326gw|1.07045gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|9|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|magnify|0.840896415|gr-arrow-end|\<gtr\>|gr-dash-style|10|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|9|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|9|#e0e0ff>>|<graphics||<line|<point|9.0|-2.0>|<point|9.0|-4.0>|<point|12.0|-4.0>|<point|12.0|-2.0>|<point|9.0|-2.0>>|<line|<point|4.0|-2.0>|<point|7.0|-2.0>|<point|7.0|-4.0>|<point|4.0|-4.0>|<point|4.0|-2.0>>|<carc|<point|2.0|-2.7>|<point|2.3|-3.0>|<point|2.2|-3.2>>|<with|arrow-end|\<gtr\>|<line|<point|2.3|-3.0>|<point|4.0|-3.0>>>|<with|arrow-end|\<gtr\>|<line|<point|7|-3>|<point|9.0|-3.0>>>|<with|arrow-end|\<gtr\>|<line|<point|12|-3>|<point|14.0|-3.0>>>|<with|arrow-end|\<gtr\>|<line|<point|13|-3>|<point|13.0|-5.0>|<point|2.0|-5.0>|<point|2.0|-3.26666666666667>>>|<with|arrow-end|\<gtr\>|<line|<point|0.3|-3.0>|<point|1.7|-3.0>>>|<\document-at>
         objekat upravljanja u ²irem smislu
@@ -49,8 +49,9 @@
         ra£una na osnovu funkcije povratnog prenosa, a zaklju£uje o osobinama
 
         funkcije spregnutog prenosa.
-      </document-at|<point|5.44444444444444|-5.77777777777778>>|<math-at|W<around*|(|s|)>=k
-      C<around*|(|s|)> G<rsub|o><around*|(|s|)>|<point|1|-7.66667>>|<\document-at>
+      </document-at|<point|5.44444444444444|-5.77777777777778>>|<math-at|funkcija
+      povratnog prenosa:k W<around*|(|s|)>=k C<around*|(|s|)>
+      G<rsub|o><around*|(|s|)>|<point|1|-7.66667>>|<\document-at>
         GMK je grafi£ka tehnika koja vizualizuje odgovor na slede¢e pitanje:
         Ukoliko fiksiramo funkcije prenosa
 
@@ -65,9 +66,9 @@
         </with>
       </document-at|<point|0.666666666666667|-8.0>>>>
     </gr-screen>
-  </shown>|<\hidden>
+  </hidden>|<\hidden>
     <\gr-screen>
-      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|0.840896cm|<tuple|-0.0104438gw|1.07045gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|8|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|magnify|0.840896415|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|8|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|8|#e0e0ff>>|gr-arrow-end|\<gtr\>|gr-dash-style|10|<graphics||<\document-at>
+      <with|gr-mode|<tuple|edit|math-at>|gr-frame|<tuple|scale|0.840896cm|<tuple|-0.0104438gw|1.07045gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|8|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|magnify|0.840896415|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|8|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|8|#e0e0ff>>|gr-arrow-end|\<gtr\>|gr-dash-style|10|<graphics||<\document-at>
         <math|G<rsub|o><around*|(|s|)>=<frac|b|s<around*|(|s+a|)>>>
       </document-at|<point|1.22222|-1.77778>>|<with|line-width|2ln|<line|<point|1|-5>|<point|12.0|-5.0>>>|<line|<point|11|-4>|<point|11.0|-5.0>>|<line|<point|11|-4>|<point|10.6666666666667|-4.33333333333333>|<point|11.0|-4.55555555555556>>|<spline|<point|2|-4>|<point|3.0|-3.55555555555556>|<point|4.0|-4.0>>|<spline|<point|4|-4>|<point|3.0|-4.33333333333333>|<point|2.0|-4.0>>|<with|arrow-end|\<gtr\>|<line|<point|1|-4>|<point|1.77777777777778|-4.0>>>|<math-at|f|<point|1.33333|-3.66667>>|<with|line-width|0.5ln|dash-style|10|<line|<point|3|-3>|<point|3.0|-5.0>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|<line|<point|3|-4.66667>|<point|11.0|-4.66666666666667>>>|<\document-at>
         Ukoliko izaberemo P regulator, kod koga je upravljanje
@@ -80,9 +81,10 @@
       </document-at|<point|7.33333|-1.77778>>|<\document-at>
         <math|p<rsub|1,2>=<frac|-a\<pm\><sqrt|a<rsup|2>-4 k b>|2>>
       </document-at|<point|1|-8.88889>>|<\document-at>
-        <math|W<around*|(|s|)>=k G<rsub|o><around*|(|s|)>=<frac|k
-        b|s<around*|(|s+a|)>>\<Rightarrow\>G<around*|(|s|)>=<frac|W<around*|(|s|)>|1+W<around*|(|s|)>>=<frac|k
-        b|s<rsup|2>+s a + k b>>
+        <math|W<around*|(|s|)>=<with|color|red|k>
+        G<rsub|o><around*|(|s|)>=<frac|<with|color|red|k>
+        b|s<around*|(|s+a|)>>\<Rightarrow\>G<around*|(|s|)>=<frac|W<around*|(|s|)>|1+W<around*|(|s|)>>=<frac|<with|color|red|k>
+        b|s<rsup|2>+s a + <with|color|red|k> b>>
       </document-at|<point|1.0|-5.125>>|<\document-at>
         <math|f*<around*|(|s|)>=s<rsup|2>+s a + k b>
       </document-at|<point|1.0|-6.0>>|<with|arrow-end|\<gtr\>|dash-style|10|<spline|<point|2.52543784559147|-8.77511972792263>|<point|3.0|-7.125>>>|<math-at|k\<less\><frac|a<rsup|2>|4
@@ -104,12 +106,13 @@
 
         Daljim pove¢anjem <math|k> samo se pove¢ava u£estanost sopstvenih
         oscilacija.
-      </document-at|<point|0.5|-9.5>>>>
+      </document-at|<point|0.5|-9.5>>|<math-at|<wide|x|\<dot\>>=v|<point|13.25|-4.75>>|<math-at|m
+      <wide|v|\<dot\>>=-a v+b u|<point|13.25|-5.125>>|<math-at||<point|15.25|-5.75>>>>
     </gr-screen>
   </hidden>|<\hidden>
     <\gr-screen>
-      <with|gr-mode|<tuple|edit|math-at>|gr-frame|<tuple|scale|0.840896cm|<tuple|-0.0104438gw|1.07045gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|8|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|magnify|0.840896415|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|8|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|8|#e0e0ff>>|gr-arrow-end|\<gtr\>|gr-point-size|4ln|gr-color|dark
-      blue|gr-line-width|2ln|<graphics||<math-at|p<rsub|1,2>=<frac|-a\<pm\><sqrt|a<rsup|2>-4
+      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|0.840896cm|<tuple|-0.0104438gw|1.07045gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|8|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|magnify|0.840896415|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|8|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|8|#e0e0ff>>|gr-arrow-end|\<gtr\>|gr-point-size|4ln|gr-color|dark
+      blue|gr-line-width|0.5ln|gr-dash-style|10|<graphics||<math-at|p<rsub|1,2>=<frac|-a\<pm\><sqrt|a<rsup|2>-4
       k b>|2>|<point|1.25|-1.75>>|<with|arrow-end|\<gtr\>|<line|<point|2|-6>|<point|13.0|-6.0>>>|<with|arrow-end|\<gtr\>|<line|<point|10|-9>|<point|10.0|-2.0>>>|<math-at|Re
       p|<point|12.75|-5.625>>|<math-at|Im
       p|<point|10.25|-1.625>>|<with|color|dark
@@ -133,8 +136,38 @@
       <around*|(|s+a|)>>|<point|1.375|-2.75>>>|<with|color|dark
       blue|<math-at|n=2|<point|11.875|-1.625>>>|<with|color|dark
       blue|<math-at|m=0|<point|11.875|-2.0>>>|<with|color|dark
-      blue|<math-at|n-m=2 gra|<point|11.25|-2.625>>>>>
+      blue|<math-at|n-m=2 grane|<point|11.25|-2.625>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
+      blue|dash-style|10|<line|<point|4.625|-5.625>|<point|7.0|-5.625>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
+      blue|dash-style|10|<line|<point|9.75|-5.625>|<point|7.875|-5.625>>>|<with|color|dark
+      blue|<\document-at>
+        smer pove¢anja k
+      </document-at|<point|2.625|-5.25>>>|<with|color|dark
+      blue|<\document-at>
+        <math|-\<pi\>/2>
+      </document-at|<point|11.375|-7.5>>>|<with|color|dark
+      blue|<\document-at>
+        <math|<around*|(|-\<pi\>+2 \<pi\>|)>/2= \<pi\>/2>
+      </document-at|<point|11.5|-8.25>>>>>
     </gr-screen>
+  </hidden>|<\hidden>
+    <tit|Dominantni polovi>
+
+    \;
+
+    Dominantni polovi sistema su oni koji imaju najve¢i (u algebarskom
+    smislu) realni deo. Geometrijski posmatrano, to su oni polovi koji se
+    nalaze \Pnajde²nje\Q (najvi²e u desnu stranu) kompleksne ravni.
+
+    Ako govorimo o stabilnom sistemu, £iji su svi polovi sa leve strane
+    imaginarne ose, onda se dominantnim polovima smatraju oni koji su
+    najbliºi imaginarnoj osi.
+
+    Kod stabilnih sistema, dominantni polovi su oni koji najsporiji! Po²to
+    njima treba najvi²e vremena da se smire, a kompletan odziv sistema je
+    odrežen superpozicijom odziva uslovljenog svim polovima, vidimo da ¢e na
+    ukupni odziv najduºe uticati ti najsporiji polovi. Svaki dinami£ki sistem
+    je brz onoliko koliko je brza najsporija komponenta: u ovom kontekstu, to
+    je komponenta odrežena dominantnim polovima.
   </hidden>|<\hidden>
     <tit|Osnovna terminologija>
 
@@ -257,8 +290,95 @@
       p<rsub|1,2>=<frac|-<around*|(|2+k|)>\<pm\><sqrt|<around*|(|2+k|)><rsup|2>+4k>|2>
     </equation*>
 
-    <with|gr-mode|<tuple|edit|line>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|0.245206par|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-point-style|round|gr-arrow-end|\<gtr\>|<graphics||<with|point-style|cross|<point|0|0>>|<with|point-style|cross|<point|-5|0>>|<with|point-style|round|<point|2|0>>|<with|arrow-end|\<gtr\>|<line|<point|0|0>|<point|2.0|0.0>>>|<with|arrow-end|\<gtr\>|<line|<point|-5|0>|<point|-6.5|0.0>>>>>
-  </hidden>>
+    <with|gr-mode|<tuple|edit|math-at>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|0.245206par|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-point-style|round|gr-arrow-end|\<gtr\>|<graphics||<with|point-style|cross|<point|0|0>>|<with|point-style|cross|<point|-5|0>>|<with|point-style|round|<point|2|0>>|<with|arrow-end|\<gtr\>|line-width|2ln|color|blue|<line|<point|0|0>|<point|2.0|0.0>>>|<with|arrow-end|\<gtr\>|line-width|2ln|color|blue|<line|<point|-5|0>|<point|-6.5|0.0>>>|<math-at|0|<point|-0.3|-0.3>>|<math-at|-2|<point|-5.2|-0.4>>|<math-at|1|<point|2.0|-0.4>>>>
+  </hidden>|<\hidden>
+    <tit|Poklapanje GMK i Re ose 1/2>
+
+    <\equation*>
+      1+k W<around*|(|s|)>=0\<Rightarrow\>W<around*|(|s|)>=-<frac|1|k>
+    </equation*>
+
+    U op²tem slu£aju, GMK £ine sve one ta£ke u kompleksnoj ravni za koje je
+    <math|W<around*|(|s|)>> negativan realan broj. Ta£ke preklapanja GMK i
+    realne ose su sve one ta£ke na realnoj osi (dakle sva ona realna
+    <math|\<sigma\>>) za koje je <math|W<around*|(|\<sigma\>|)>\<less\>0>.
+
+    Funkcije prenosa koje posmatramo su racionalne, date koli£nikom dva
+    polinoma
+
+    <\equation*>
+      W<around*|(|\<sigma\>|)>=<frac|<around*|(|\<sigma\>-z<rsub|1>|)>*\<cdots\>*<around*|(|\<sigma\>-z<rsub|m>|)>|<around*|(|\<sigma\>-p<rsub|1>|)><around*|(|\<sigma\>-p<rsub|2>|)>*\<cdots\>*<around*|(|\<sigma\>-p<rsub|n>|)>>
+    </equation*>
+
+    Ako su i <math|\<sigma\>> i <math|a> realni brojevi, kada ¢e biti
+    <math|\<sigma\>-a> negativno? Geometrijski, to ¢e biti zadovoljeno kada
+    je <math|\<sigma\>> levo od <math|a>. Pod pretpostavkom da su svi polovi
+    i nule realni, <strong|<math|W<around*|(|\<sigma\>|)>> ¢e biti negativno
+    uvek kada se <math|\<sigma\>> nalazi levo od neparnog broja polova i
+    nula.> <with|font-series|bold|To zna£i da se GMK poklapa sa realnom osom
+    u svim onim ta£kama koje leºe levo od neparnog broja polova i nula!>
+  </hidden>|<\hidden>
+    <tit|Poklapanje GMK i Re ose 2/2>
+
+    \;
+
+    ’ta ako imamo konjugovano-kompleksan par polova ili nula
+
+    <\equation*>
+      <around*|(|\<sigma\>-<around*|(|a+j
+      b|)>|)><around*|(|\<sigma\>-<around*|(|a-j
+      b|)>|)>=<around*|(|\<sigma\>-a+j b|)><around*|(|\<sigma\>-a-j
+      b|)>=<around*|(|\<sigma\>-a|)><rsup|2>+b<rsup|2>\<geqslant\>0
+    </equation*>
+
+    Konjugovano-kompleksni polovi ili nule ne doprinose prethodnoj ra£unici
+    ni na koji na£in. Oni se ne gledaju kada ispitujemo oblast preklapanja
+    GMK i Re ose.
+  </hidden>|<\hidden>
+    <tit|Asimptote GMK>
+
+    <\gr-screen>
+      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-arrow-end|\<gtr\>|gr-color|blue|gr-line-width|2ln|gr-point-style|cross|gr-point-size|5ln|<graphics||<math-at|W<around*|(|s|)>=<frac|1|s>|<point|0.3|-0.8>>|<math-at|f<around*|(|s|)>=s+k|<point|0.4|-1.3>>|<with|arrow-end|\<gtr\>|<line|<point|4|-1>|<point|11.0|-1.0>>>|<with|arrow-end|\<gtr\>|<line|<point|9|-1.5>|<point|9.0|-0.2>>>|<with|line-width|2ln|arrow-end|\<gtr\>|color|blue|<line|<point|9|-1>|<point|4.7|-1.0>>>|<with|color|blue|point-style|cross|point-size|5ln|<point|9|-1>>|<with|color|blue|<\document-at>
+        Odlazi u beskona£n
+      </document-at|<point|7.3|-0.4>>>>>
+    </gr-screen>
+  </hidden>|<\hidden>
+    <tit|Asimptote GMK>
+
+    <\equation*>
+      W<around*|(|s|)>=<frac|b<rsub|m>s<rsup|m>+\<cdots\>+b<rsub|0>|s<rsup|n>+a<rsub|n-1>s<rsup|n-1>+\<cdots\>+a<rsub|0>>\<sim\><frac|b<rsub|m
+      >s<rsup|m>|s<rsup|n>>\<sim\><frac|b<rsub|m>|s<rsup|n-m>>
+    </equation*>
+
+    Uglovi asimptota GMK se ra£unaju po formuli
+
+    <\equation*>
+      \<phi\><rsub|a>=<frac|-\<pi\>+2 \<ell\>\<pi\>|n-m>,\<ell\>\<in\><around*|{|0,1,\<ldots\>,n-m-1|}>
+    </equation*>
+
+    Razlika broja polova i nula funkcije prenosa (bilo koje) naziva se
+    relativnim stepenom sistema. GMK ima onoliko asimptota koliki je
+    relativni stepen funkcije povratnog prenosa.
+
+    Ta£ka preseka asimptota.\ 
+
+    <\equation*>
+      \<sigma\><rsub|a>=<frac|<big|sum>p<rsub|i>-<big|sum>z<rsub|i>|n-m>
+    </equation*>
+  </hidden>|<\shown>
+    <tit|Primer>
+
+    <\equation*>
+      W<around*|(|s|)>=<frac|1|s<around*|(|s+1|)><around*|(|s+2|)>>
+    </equation*>
+
+    <with|gr-mode|<tuple|edit|math-at>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|0.400421par|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-point-style|cross|gr-point-size|5ln|gr-color|blue|gr-line-width|2ln|gr-arrow-end|\<gtr\>|<graphics||<with|arrow-end|\<gtr\>|<line|<point|-6|0>|<point|3.0|0.0>>>|<with|arrow-end|\<gtr\>|<line|<point|0|-2.6>|<point|0.0|2.5>>>|<math-at|Re
+    s|<point|2.7|-0.4>>|<math-at|Im s|<point|0.3|2.4>>|<with|color|blue|point-style|cross|point-size|5ln|<point|0|0>>|<with|color|blue|point-style|cross|point-size|5ln|<point|-2|0>>|<with|color|blue|point-style|cross|point-size|5ln|<point|-4|0>>|<with|color|blue|<math-at|0|<point|0.1|-0.3>>>|<with|color|blue|<math-at|-1|<point|-1.9|-0.25156>>>|<with|color|blue|<math-at|-2|<point|-3.9|-0.3>>>|<with|line-width|2ln|color|blue|<line|<point|-2|0>|<point|0.0|0.0>>>|<with|line-width|2ln|arrow-end|\<gtr\>|color|blue|<line|<point|-4|0>|<point|-5.9|0.0>>>|<with|color|dark
+    red|<math-at|\<phi\><rsub|a>=<frac|-\<pi\>+2 \<ell\>
+    \<pi\>|3>|<point|3.3|2.3>>>|<with|color|dark
+    red|<math-at|-<frac|\<pi\>|3>,<frac|\<pi\>|3>,\<pi\>|<point|3.8|1.8>>>|<with|color|dark
+    red|<math-at|\<sigma\><rsub|a>=<frac|-3-0|3>=-1|<point|3.4|0.9>>>|<with|line-width|0.5ln|color|blue|dash-style|10|<line|<point|-2|0>|<point|-0.3|2.6>>>|<with|line-width|0.5ln|color|blue|dash-style|10|<line|<point|-2|0>|<point|-0.4|-2.5>>>|<with|line-width|2ln|arrow-end|\<gtr\>|color|blue|<spline|<point|-1.2|0>|<point|-1.0|1.0>|<point|-0.2|2.6>>>|<with|line-width|2ln|arrow-end|\<gtr\>|color|blue|<spline|<point|-1.2|0>|<point|-1.1|-0.958144913607149>|<point|-0.3|-2.5>>>|<with|color|blue|<math-at|<big|sum><frac|1|\<sigma\><rsub|0>-p<rsub|i>>-<big|sum><frac|1|\<sigma\><rsub|0>-z<rsub|i>>=0|<point|-6|1.8>>>>>
+  </shown>>
 </body>
 
 <\initial>
