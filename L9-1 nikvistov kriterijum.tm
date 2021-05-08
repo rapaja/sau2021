@@ -10,8 +10,8 @@
 
     \;
 
-    <doc-data|<doc-title|Nikvistov kriterijum>|<doc-subtitle|SAU
-    L9-1>|<doc-author|<\author-data|<author-name|Milan R.
+    <doc-data|<doc-title|Nikvistov kriterijum>|<doc-subtitle|SAU L9-1, L9-2,
+    L9-3>|<doc-author|<\author-data|<author-name|Milan R.
     Rapai¢>|<\author-affiliation>
       Katedra za automatsko upravljanje
 
@@ -137,26 +137,57 @@
     sistem je nestabilan.
 
     Koliko polova ima funkcija <math|F<around*|(|s|)>>? (pod pretpostavkom da
-    mu je <math|W<around*|(|s|)>> poznato) Broj polova
+    mu je <math|W<around*|(|s|)>> poznato) <em|Broj polova
     <math|F<around*|(|s|)>> isti je kao i broj polova funkcije povratnog
-    prenosa. Nas zanima da li funkcija <math|F> ima nula u desnoj kompleksnoj
-    poluravni!
+    prenosa.> <strong|Nas zanima da li funkcija <math|F<around*|(|s|)>> ima
+    nula u desnoj kompleksnoj poluravni!>
+
+    <\ornamented>
+      Drugim re£ima, ukoliko izaberemo konturu koja jednom obilazi kompletnu
+      desnu polovinu kompleksne ravni, sistem ¢e biti stabilan nakon
+      zatvaranja povratne sprege ukoliko preslikana kontura obuhvati
+      koordinatni po£etak <math|-P> puta (<math|P> puta u obrnutom smeru).
+    </ornamented>
   </hidden>|<\hidden>
     <tit|Koju konturu obilazimo?>
 
     <\gr-screen>
-      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-color|red|gr-dash-style|10|gr-arrow-end|\<gtr\>|<graphics||<with|arrow-end|\<gtr\>|<line|<point|1|-3>|<point|11.0|-3.0>>>|<with|arrow-end|\<gtr\>|<line|<point|3|-6>|<point|3.0|-0.0999999999999999>>>|<with|color|red|<line|<point|3|-5.6>|<point|3.0|-0.5>>>|<with|color|red|<spline|<point|3|-0.6>|<point|4.8|-0.8>|<point|6.8|-2.0>|<point|7.4|-3.0>|<point|6.7|-4.5>|<point|4.7|-5.5>|<point|3.0|-5.6>>>|<with|arrow-end|\<gtr\>|color|red|dash-style|10|<spline|<point|5.6|-2.2>|<point|7.2|-1.0>>>|<with|color|red|<math-at|R\<rightarrow\>\<infty\>|<point|7.1|-1.5>>>|<with|color|red|<\document-at>
-        Ko²ijeva kontura
-      </document-at|<point|7.7|-4.6>>>>>
+      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|-0.139992gw|0.99gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-dash-style|10|gr-arrow-end|\<gtr\>|<graphics||<with|arrow-end|\<gtr\>|<line|<point|1|-3>|<point|11.0|-3.0>>>|<with|arrow-end|\<gtr\>|<line|<point|3|-6>|<point|3.0|-0.0999999999999999>>>|<with|color|red|<line|<point|3|-5.6>|<point|3.0|-0.5>>>|<with|color|red|<spline|<point|3|-0.6>|<point|4.8|-0.8>|<point|6.8|-2.0>|<point|7.4|-3.0>|<point|6.7|-4.5>|<point|4.7|-5.5>|<point|3.0|-5.6>>>|<with|arrow-end|\<gtr\>|color|red|dash-style|10|<spline|<point|5.6|-2.2>|<point|7.2|-1.0>>>|<with|color|red|<math-at|R\<rightarrow\>\<infty\>|<point|7.1|-1.5>>>|<\document-at>
+        \;
+      </document-at|<point|9.4|-0.3>>|<\document-at>
+        \;
+      </document-at|<point|9|-1>>|<\document-at>
+        Potrebna nam je kontura koja obuhvata
+
+        £itavu desnu polovinu kompleksne ravni.
+
+        \;
+
+        Jedan od na£ina da kreiramo takvu
+
+        konturu jeste da posmartamo odse£ak
+
+        imaginarne ose <math|j<around*|[|-R,R|]>> i polukrug sa
+
+        centrom u koordinatnom po£etku,
+
+        polupre£nika <math|R>, gde je <math|R> neki jako veliki
+
+        broj. Ukoliko pustimo da <math|R> neograni£eno
+
+        raste, dobili smo traºenu konturu.
+      </document-at|<point|9.0|-2.0>>|<with|color|red|<\document-at>
+        NIKVISTOVA kontura
+      </document-at|<point|3.6|-3.6>>>>>
     </gr-screen>
   </hidden>|<\hidden>
     <tit|Inicijalna formulacija Nikvistovog kriterijuma>
 
     \;
 
-    Nikvistova kriva jeste kontura u ravni koju dobijamo preslikavaju¢i
-    Ko²ijevu konturu pomo¢u karakteristi£ne jedna£ine
-    <math|F<around*|(|s|)>=1+W<around*|(|s|)>>, ra£ku po ta£ku, kre¢u¢i se u
+    Nikvistova kriva jeste kriva linija u kompleksnoj ravni koju dobijamo
+    preslikavaju¢i Nikvistovu konturu pomo¢u karakteristi£ne jedna£ine
+    <math|F<around*|(|s|)>=1+W<around*|(|s|)>>, ta£ku po ta£ku, kre¢u¢i se u
     negativnom matemati£kom smeru.
 
     <\ornamented>
@@ -180,14 +211,15 @@
     jednu ta£ku. Ta ta£ka ne doprinosi broju obuhvata (prosto taj deo
     kompletne krive je skupljen u ta£ku i ne pomera se). Stoga, prilikom
     preslikavanja ne moramo uzimati ovaj beskona£ni polukrug u razmatranje.
+    <with|color|dark red|Preslikavamo samo imaginarnu osu:>
 
     <\ornamented>
       Nikvistovu krivu moºemo defninisati kao krivu koju isrcta
-      <math|W<around*|(|j\<omega\>|)>> kada se <math|\<omega\>> menja od
+      <math|1+W<around*|(|j\<omega\>|)>> kada se <math|\<omega\>> menja od
       <math|-\<infty\>> do <math|+\<infty\>>. Ukoliko je P broj nestabilnih
-      polova funkcija povratnog prenosa, sistem ¢e nakon zatvaranja jedini£ne
+      polova funkcije povratnog prenosa, sistem ¢e nakon zatvaranja jedini£ne
       negativne povratne sprege biti stabilan ako i samo ako je broj obuhvata
-      Nikvistove krive oko ta£ku <math|-1+0j> jednak +P.
+      Nikvistove krive oko koordinatnog po£etka jednak +P.
     </ornamented>
   </hidden>|<\hidden>
     <tit|Zbog £ega ne moramo preslikavati negativni deo Im ose?>
@@ -198,11 +230,24 @@
 
     <\ornamented>
       Nikvistovu krivu moºemo defninisati kao krivu koju isrcta
+      <math|1+W<around*|(|j\<omega\>|)>> kada se <math|\<omega\>> menja od
+      <math|0> do <math|+\<infty\>>. Ukoliko je P broj nestabilnih polova
+      funkcije povratnog prenosa, sistem ¢e nakon zatvaranja jedini£ne
+      negativne povratne sprege biti stabilan ako i samo ako je broj obuhvata
+      Nikvistove krive oko koordinatnog po£etka jednak +P/2.
+    </ornamented>
+
+    Umesto da preslikavamo <math|1+W>, pa brojimo obuhvate oko koordinatnog
+    po£etka, prakti£nije je preslikavati <math|W> pa brojate obuhvate oko
+    ta£ke <math|-1+0j>. Tu ta£ku nazivamo <strong|kriti£nom ta£kom>!
+
+    <\ornamented>
+      Nikvistovu krivu moºemo defninisati kao krivu koju isrcta
       <math|W<around*|(|j\<omega\>|)>> kada se <math|\<omega\>> menja od
       <math|0> do <math|+\<infty\>>. Ukoliko je P broj nestabilnih polova
-      funkcija povratnog prenosa, sistem ¢e nakon zatvaranja jedini£ne
+      funkcije povratnog prenosa, sistem ¢e nakon zatvaranja jedini£ne
       negativne povratne sprege biti stabilan ako i samo ako je broj obuhvata
-      Nikvistove krive oko ta£ke <math|-1+0j> jednak +P/2.
+      Nikvistove krive oko kriti£ne ta£ke <math|-1+0j> jednak +P/2.
     </ornamented>
   </hidden>|<\hidden>
     <tit|PRIMER 1>
@@ -214,8 +259,8 @@
     Nakon zatvaranja povratne sprege, sistem i dalje ostaje nestabilan, s
     obzirom da je <math|f<around*|(|s|)>=s-1>.
 
-    <with|gr-mode|<tuple|edit|point>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.47gh>>|gr-geometry|<tuple|geometry|1par|0.356073par|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-arrow-end|\<gtr\>|gr-color|dark
-    red|gr-line-width|2ln|gr-point-style|cross|<graphics||<with|arrow-end|\<gtr\>|<line|<point|0|-2>|<point|0.0|2.2>>>|<math-at|Re
+    <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.47gh>>|gr-geometry|<tuple|geometry|1par|0.356073par|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-arrow-end|\<gtr\>|gr-color|dark
+    red|gr-line-width|0.5ln|gr-point-style|cross|gr-dash-style|10|<graphics||<with|arrow-end|\<gtr\>|<line|<point|0|-2>|<point|0.0|2.2>>>|<math-at|Re
     W<around*|(|j \<omega\>|)>|<point|4.6|-0.4>>|<math-at|Im W<around*|(|j
     \<omega\>|)>|<point|0.3|2.2>>|<math-at|W<around*|(|j
     \<omega\>|)>=<frac|1|j \<omega\>-2>=<frac|1|j \<omega\>-2><frac|j
@@ -223,7 +268,16 @@
     W<around*|(|j \<omega\>|)>=-<frac|2|\<omega\><rsup|2>+4>|<point|-6.4|1.3>>|<math-at|Im
     W<around*|(|j \<omega\>|)>=-<frac|\<omega\>|\<omega\><rsup|2>+4>|<point|-6.4|0.7>>|<point|-3|0>|<math-at|-<frac*|1|2>|<point|-3.7|-0.5>>|<point|0|0>|<math-at|\<omega\>=0|<point|-3.6|-0.9>>|<math-at|\<omega\>\<rightarrow\>\<infty\>|<point|1|0.8>>|<with|arrow-end|\<gtr\>|dash-style|11100|<spline|<point|0.886248|0.686245>|<point|0.2|0.2>>>|<with|line-width|2ln|arrow-end|\<gtr\>|color|dark
     blue|<spline|<point|-3|0>|<point|-1.4|-1.0>|<point|0.0|0.0>>>|<with|arrow-end|\<gtr\>|<line|<point|-6.5|0.0>|<point|5.1|0.0>>>|<with|color|dark
-    red|point-style|cross|<point|-6|0>>>>
+    red|point-style|cross|point-size|5ln|<point|-6|0>>|<with|color|dark
+    red|<math-at|-1|<point|-6.1|-0.4>>>|<with|color|dark red|<\document-at>
+      kriti£na ta£ka
+    </document-at|<point|-5.6|-1.6>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
+    red|dash-style|10|<spline|<point|-4.8|-1.4>|<point|-4.5|-1.0>|<point|-5.8|-1.0>|<point|-6.6|-0.5>|<point|-6.21375835335545|-0.0591325155880665>>>|<with|color|dark
+    red|<\document-at>
+      Kriva ne obuhvata kriti£nu ta£ku!
+
+      Po²to je P=1, sistem je nestabilan!
+    </document-at|<point|0.4|-1>>>>>
   </hidden>|<\hidden>
     <tit|PRIMER 2>
 
@@ -234,13 +288,13 @@
     Nakon zatvaranja povratne sprege, sistem i dalje ostaje nestabilan, s
     obzirom da je <math|f<around*|(|s|)>=s+3>.
 
-    <with|gr-mode|<tuple|edit|spline>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|0.370856par|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-arrow-end|\<gtr\>|gr-color|dark
+    <with|gr-mode|<tuple|group-edit|edit-props>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|0.370856par|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-arrow-end|\<gtr\>|gr-color|dark
     red|gr-line-width|0.5ln|gr-point-style|cross|gr-dash-style|10|<graphics||<with|arrow-end|\<gtr\>|<line|<point|-6|0>|<point|6.0|0.0>>>|<with|arrow-end|\<gtr\>|<line|<point|0|-2>|<point|0.0|2.3>>>|<math-at|Re
     W<around*|(|j\<omega\>|)>|<point|5.0|-0.5>>|<math-at|Im W<around*|(|j
     \<omega\>|)>|<point|0.3|2.2>>|<math-at|Re
     W<around*|(|j\<omega\>|)>=-<frac|10|\<omega\><rsup|2>+4>|<point|-6|2>>|<math-at|Im
     W<around*|(|j\<omega\>|)>=-<frac|5 \<omega\>|\<omega\><rsup|2>+4>|<point|-6.0|1.3>>|<point|-5|0>|<math-at|-<frac*|5|2>|<point|-5.8|-0.5>>|<point|0|0>|<with|line-width|2ln|arrow-end|\<gtr\>|color|dark
-    blue|<spline|<point|-5|0>|<point|-2.8|-1.7>|<point|0.0|0.0>>>|<with|color|red|point-style|cross|<point|-3|0>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
+    blue|<spline|<point|-5|0>|<point|-2.8|-1.7>|<point|0.0|0.0>>>|<with|color|red|point-style|cross|point-size|5ln|<point|-3|0>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
     green|dash-style|10|<line|<point|-3|0>|<point|-5.0|0.0>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
     green|dash-style|10|<line|<point|-3|0>|<point|-4.61688151929079|-0.6>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
     green|dash-style|10|<line|<point|-3|0>|<point|-4.06758006724896|-1.2>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
@@ -267,26 +321,49 @@
     </document-at|<point|3.2|1.6>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
     red|dash-style|10|<spline|<point|3|0.4>|<point|2.3|0.2>|<point|1.64079842027956|1.0448819586977>>>>>
   </hidden>|<\hidden>
+    <tit|Ispitivanje stabilnosti u slu£aju promenljivog poja£anja>
+
+    Sli£no kao kod GMK, £esto je bitno analizirati stabilnost sistema u
+    zavisnosti od promenljivog poja£anja. Tada je bitno napomenuti da se sa
+    pove¢anjem <math|k> oblik Nikvistove krive funkcije povratnog prenosa
+    <math|k W<around*|(|s|)>> ne menja, menja se samo njena veli£ina. Drugim
+    re£ima, sa pove¢anjem <math|k> Nikvistova kriva se radijalno ²iri.
+
+    Stoga je prakti£no interesantnije crtati fiksnu krivu (za <math|k=1>), a
+    uticaj <math|k> analizirati pomeranjem kriti£ne ta£ke:
+
+    <\equation*>
+      1+k W<around*|(|s|)>=0\<Leftrightarrow\><frac*|1|k>+W<around*|(|s|)>=0
+    </equation*>
+
+    <\ornamented>
+      Nikvistovu krivu moºemo defninisati kao krivu koju isrcta
+      <math|W<around*|(|j\<omega\>|)>> kada se <math|\<omega\>> menja od
+      <math|0> do <math|+\<infty\>>. Ukoliko je P broj njenih nestabilnih
+      polova, sistem opisan funkcijom povratnog prenosa <math|k
+      W<around*|(|s|)>> ¢e nakon zatvaranja jedini£ne negativne povratne
+      sprege biti stabilan ako i samo ako je broj obuhvata Nikvistove krive
+      oko kriti£ne ta£ke <math|-<frac*|1|k>> jednak +P/2.
+    </ornamented>
+  </hidden>|<\hidden>
     <tit|PRIMER 3>
 
     <\equation*>
-      W<around*|(|s|)>=<frac|k|s-2>
+      k W<around*|(|s|)>=<frac|k|s-2>
     </equation*>
 
     Nakon zatvaranja povratne sprege karakteristi£ni polinom je
     <math|f<around*|(|s|)>=s-2+k>, odnosno sistem je stabilan za
     <math|k\<gtr\>2>
 
-    <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|0.341291par|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-color|dark
-    green|gr-line-width|5ln|<graphics||<with|arrow-end|\<gtr\>|<line|<point|-5.7|0>|<point|6.0|0.0>>>|<with|arrow-end|\<gtr\>|<line|<point|0|-2>|<point|0.0|2.0>>>|<point|-5|0>|<point|0|0>|<with|line-width|2ln|arrow-end|\<gtr\>|color|dark
+    <with|gr-mode|<tuple|group-edit|edit-props>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|0.341291par|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-color|red|gr-line-width|5ln|<graphics||<with|arrow-end|\<gtr\>|<line|<point|-5.7|0>|<point|6.0|0.0>>>|<with|arrow-end|\<gtr\>|<line|<point|0|-2>|<point|0.0|2.0>>>|<point|-5|0>|<point|0|0>|<with|line-width|2ln|arrow-end|\<gtr\>|color|dark
     blue|<spline|<point|-5|0>|<point|-2.7|-1.3>|<point|0.0|0.0>>>|<with|color|dark
-    blue|<math-at|-<frac|k|2>|<point|-5.3|0.4>>>|<with|color|dark
-    blue|<\document-at>
+    blue|<math-at|-<frac|1|2>|<point|-5.3|0.4>>>|<with|color|dark
+    green|<\document-at>
       Ako je kriti£na ta£ka ovde sistem je stabilan
     </document-at|<point|-3.4|1.3>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
-    blue|<spline|<point|-1.8|0.844878>|<point|-3.0|0.7>|<point|-3.0|0.1>>>|<with|line-width|5ln|color|dark
-    green|<spline|<point|-5|0>|<point|0.0|0.0>>>|<with|color|dark
-    green|<\document-at>
+    blue|<spline|<point|-1.8|0.844878>|<point|-3.0|0.7>|<point|-3.0|0.1>>>|<with|color|dark
+    blue|<\document-at>
       Kada je funkcija povratnog prenosa <math|k W<around*|(|s|)>>
 
       onda moºemo crtati Nikvista samo na
@@ -294,9 +371,12 @@
       osnovu <math|W<around*|(|s|)>>, a kriti£nom ta£kom moºemo
 
       smatrati <math|-1/k>.
-    </document-at|<point|0.6|-0.4>>>>>
+    </document-at|<point|0.6|-0.4>>>|<with|line-width|5ln|color|dark
+    green|<spline|<point|-5.0|0.0>|<point|0.0|0.0>>>|<with|line-width|5ln|color|red|<line|<point|-6.4|0>|<point|-5.0|0.0>>>|<with|color|red|<\document-at>
+      Ako je kriti£na ta£ka ovde, sistem je nestabilan
+    </document-at|<point|-6.7|-1.9>>>>>
   </hidden>|<\hidden>
-    <tit|Kako ispitivati stabilnost u zavisnosti od poja£anja>
+    <tit|Da ponovimo<text-dots>>
 
     \;
 
@@ -327,8 +407,8 @@
     <tit|PRIMER: Ispitivanje stabilnosti u zavisnosti od poja£anja>
 
     <\gr-screen>
-      <with|gr-mode|<tuple|edit|line>|gr-frame|<tuple|scale|1cm|<tuple|0gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-color|dark
-      green|gr-line-width|5ln|gr-point-style|cross|<graphics||<with|arrow-end|\<gtr\>|<line|<point|1|-4>|<point|13.0|-4.0>>>|<with|arrow-end|\<gtr\>|<line|<point|6|-6.6>|<point|6.0|-0.4>>>|<with|line-width|2ln|arrow-end|\<gtr\>|color|dark
+      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-color|dark
+      green|gr-line-width|0.5ln|gr-point-style|cross|gr-arrow-end|\<gtr\>|gr-dash-style|10|<graphics||<with|arrow-end|\<gtr\>|<line|<point|1|-4>|<point|13.0|-4.0>>>|<with|arrow-end|\<gtr\>|<line|<point|6|-6.6>|<point|6.0|-0.4>>>|<with|line-width|2ln|arrow-end|\<gtr\>|color|dark
       blue|<spline|<point|11|-4>|<point|9.2|-1.8>|<point|4.7|-1.4>|<point|3.6|-3.5>|<point|5.2|-4.6>|<point|5.9|-4.4>|<point|6.0|-4.0>>>|<with|color|dark
       blue|<math-at|W<around*|(|s|)>|<point|9.4|-1.1>>>|<with|color|dark
       blue|<point|3.94679|-4>>|<with|color|dark
@@ -338,19 +418,36 @@
       blue|<\document-at>
         P=2
       </document-at|<point|10.5|-0.6>>>|<with|color|dark blue|<\document-at>
-        Ukoliko je <math|W<around*|(|s|)>> funkcija povratnog prenosa,
-
-        sistem nije stabilan nakon zatvaranja p.s.
-      </document-at|<point|7|-5>>>|<with|color|dark blue|<\document-at>
         Za koje vrednosti <math|k> ¢e sistem opisan funkcijom povratnog
         prenosa
 
         <math|k W<around*|(|s|)> >biti stabilan nakon zatvaranja p.s.
       </document-at|<point|0.4|-0.3>>>|<with|line-width|5ln|color|dark
-      green|<line|<point|3.94679|-4>|<point|6.0|-4.0>>>>>
+      green|<line|<point|3.94679|-4>|<point|6.0|-4.0>>>|<with|color|dark
+      green|<\document-at>
+        \;
+      </document-at|<point|5.2|-2.5>>>|<with|color|dark green|<\document-at>
+        \;
+      </document-at|<point|2.9|-1.8>>>|<with|color|dark green|<\document-at>
+        Ako je kriti£na ta£ka ovde,
+
+        sistem je stabilan! To ¢e biti kada je <math|k\<gtr\>2>!
+      </document-at|<point|6.3|-3.0>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|color|dark
+      green|dash-style|10|<spline|<point|6.8|-2.7>|<point|5.2|-2.0>|<point|4.4|-3.0>|<point|4.8|-3.8>>>|<with|color|dark
+      blue|<\document-at>
+        Ukoliko je <math|W<around*|(|s|)>> funkcija povratnog prenosa,
+
+        sistem nije stabilan nakon zatvaranja p.s.
+
+        \;
+
+        Mežutim, ukoliko je <math|3W<around*|(|s|)>> funkcija prenosa,
+
+        sistem u zatvorenoj sprezi ¢e biti stabilan.
+      </document-at|<point|6.3|-4.4>>>>>
     </gr-screen>
   </hidden>|<\hidden>
-    <tit|Primer>
+    <tit|Primer u kome se Nikvistov kriterijum mora modifikovati >
 
     <\gr-screen>
       <with|gr-mode|<tuple|edit|math-at>|gr-frame|<tuple|scale|1cm|<tuple|0.0099995gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-point-style|cross|gr-arrow-end|\<gtr\>|gr-color|dark
@@ -383,6 +480,24 @@
       blue|<line|<point|8.1|-4.3>|<point|9.7|-4.8>>>|<with|color|dark
       blue|<math-at|\<infty\>|<point|9.7|-4.5>>>>>
     </gr-screen>
+  </hidden>|<\hidden>
+    <tit|Nikvistov kriterijum za sisteme sa astatizmom>
+
+    <\itemize>
+      <item>Kod sistema sa astatizmom funkcija povratnog prenosa nije
+      neprekidna na konturi (ima neograni£enu vrednost u okolini nule)
+
+      <item>Nikvistov kriterijum se moºe primeniti i u ovom slu£aju, ali se
+      kontura mora modifikovati!
+
+      <item>Sli£na modifikacija se mora na£initi uvek kada sistem u
+      zatvorenoj sprezi poseduje polove na imaginarnoj osi (ali se njima
+      ne¢emo ovde baviti).
+
+      <item>Svi zaklju£ci ostaju na snazi, jedino ²to se Nikvistova kontura
+      modifikuje, i to tako ²to se singularitet u nuli obilazi polukrugom
+      malog polupre£nika.
+    </itemize>
   </hidden>|<\hidden>
     <tit|Modifikovana kontura za sisteme sa astatizmom>
 
