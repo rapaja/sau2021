@@ -3,7 +3,7 @@
 <style|<tuple|beamer|croatian>>
 
 <\body>
-  <screens|<\hidden>
+  <screens|<\shown>
     \;
 
     \;
@@ -27,7 +27,7 @@
     <|author-data>
       \;
     </author-data>>>
-  </hidden>|<\hidden>
+  </shown>|<\hidden>
     <\gr-screen>
       <with|gr-mode|<tuple|edit|math-at>|gr-frame|<tuple|scale|1cm|<tuple|0gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-color|orange|<graphics||<with|arrow-end|\<gtr\>|<line|<point|1|-5>|<point|12.0|-5.0>>>|<math-at|t|<point|11.8|-5.4>>|<with|arrow-end|\<gtr\>|<line|<point|2|-6>|<point|2.0|-1.0>>>|<math-at|f<around*|(|t|)>|<point|2.2|-0.8>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|arrow-begin|\<less\>|<line|<point|2|-5.7>|<point|10.0|-5.7>>>|<math-at|T|<point|6.09441|-6.1>>|<with|line-width|2ln|color|dark
       blue|<spline|<point|2.0|-4.0>|<point|3.9|-2.6>|<point|5.7|-1.2>|<point|8.1|-2.0>|<point|9.4|-3.6>|<point|10.0|-5.5>>>|<with|color|red|<spline|<point|2|-3.2>|<point|10.0|-3.2>>>|<with|color|red|<math-at|f<rsub|0><around*|(|t|)>=const.|<point|10.2|-3.2>>>|<with|color|dark
@@ -237,7 +237,7 @@
       </document-at|<point|1|-0.4>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|<spline|<point|2.87693|-4.09284>|<point|3.3|-3.7>|<point|2.0|-1.8>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|<spline|<point|2.1|-1.32194>|<point|4.9|-0.855120959505073>|<point|7.5|-1.4>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|<spline|<point|4.9|-0.855121>|<point|8.0|-1.0>|<point|9.02565100240265|-1.45111523982763>>>|<with|line-width|0.5ln|arrow-end|\<gtr\>|<spline|<point|8|-1>|<point|9.5|-1.0>|<point|10.8|-1.4>>>|<math-at|<around*|\||G<around*|(|j2|)>|\|>=<frac|1|<around*|\||<sqrt|1+2<rsup|2>>|\|>>=<frac|1|<sqrt|5>>|<point|6.7|-4.6>>|<math-at|argG<around*|(|j2|)>=-arctg
       2|<point|6.7|-5.4>>>>
     </gr-screen>
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <tit|Frekvencijski odziv linearnih, stacionarnih sistema>
 
     \;
@@ -265,7 +265,25 @@
       y*<around*|(|t|)>=1+<frac|2|<sqrt|2>>sin<around*|(|t+arctgG<around*|(|j1|)>|)><with|color|dark
       red|+<frac|1000|<sqrt|10<rsup|12>+1>>sin<around*|(|10<rsup|6>t+arctgG*<around*|(|j10<rsup|6>|)>|)>>
     </equation*>
-  </shown>>
+  </hidden>|<\hidden>
+    <tit|ZAKLJUƒAK>
+
+    \;
+
+    \;
+
+    \;
+
+    Linearni, stacionarni sistemi (u ustaljenom stanju) ne generi²u nove
+    u£estanosti. <strong|Signal na izlazu ne moºe sadrºati harmonike koji
+    nisu bili prisutni u ulaznom signalu.> Mežutim, amplitude i fazni stavovi
+    harmonika na izlazu se razlikuju od amplituda i faznih stavova harmonika
+    ulaza. Pri tome, poja£anje harmonika na u£estanosti <math|\<omega\>>
+    odreženo je vredno²¢u modula funkcije prenosa sistema na istoj
+    u£estanosti <math|<around*|\||G<around*|(|j \<omega\>|)>|\|>>, dok je
+    fazni pomeraj odrežen argumentom te funkcije prenosa <math|arg
+    G<around*|(|j \<omega\>|)>>
+  </hidden>>
 </body>
 
 <\initial>
