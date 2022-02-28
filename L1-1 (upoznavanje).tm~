@@ -3,7 +3,7 @@
 <style|<tuple|beamer|croatian>>
 
 <\body>
-  <screens|<\hidden>
+  <screens|<\shown>
     \;
 
     \;
@@ -27,7 +27,7 @@
     <|author-data>
       \;
     </author-data>>>
-  </hidden>|<\hidden>
+  </shown>|<\hidden>
     <tit|Osnovni podaci o izvoža£ima nastave>
 
     <\padded-center>
@@ -184,7 +184,7 @@
       eventualne dodatne bodove, kao i na pravo da ispit poloºe bez polaganja
       usmenog ispita.
     </itemize>
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <tit|Literatura>
 
     \;
@@ -201,7 +201,7 @@
     R. C. Dorf & R. H. Bishop. \PModern Control Systems\Q
 
     Mili¢ R. Stoji¢. \PKontinualni sistemi automatskog upravljanja\Q
-  </shown>>
+  </hidden>>
 </body>
 
 <\initial>
