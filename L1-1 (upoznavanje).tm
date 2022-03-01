@@ -112,7 +112,7 @@
       obavezama i shodno tome vaºe dve ²kolske godine.
 
       <item>Pismeni ispit se smatra poloºenim ukoliko se na njemu ostvari 50%
-      (odnosno 20) ili vi²e bodova. Pismeni ispit vaºi dva roka: rok u kome
+      (odnosno 25) ili vi²e bodova. Pismeni ispit vaºi dva roka: rok u kome
       je ispit poloºen i prvi naredni ispitni rok (ra£unaju¢i tu i sve
       eventualne dodatne i vanredne rokove).
 
@@ -128,21 +128,21 @@
       <item>Dodatni bodovi vaºe do kraja ²kolske godine, ta£nije do 30. 9. u
       pono¢.
     </itemize>
-  </hidden>|<\hidden>
+  </hidden>|<\shown>
     <tit|Olak²ice>
 
     <\itemize>
-      <item>Studenti koji u toku semestra poloºe samo jedan kolokvijum drugi
-      mogu polagati tokom junskog i julskog ispitnog roka. Ovako poloºeni
+      <item>Studenti koji u toku semestra poloºe samo jedan kolokvijum ostale
+      moºe polagati tokom junskog i julskog ispitnog roka. Ovako poloºeni
       kolokvijumi se ne smatraju predispitnim obavezama ve¢ delovima ispita,
       te vaºe dva uzastopna ispitna roka.
 
       <item><with|color|red|Nakon julskog ispitnog roka, pismeni ispit se
       moºe polagati isklju£ivo u celosti.>
 
-      <item>Studentima koji poloºe OBA kolokvijuma (tokom semestra, u junskom
-      ili julskom ispitnom roku) pismeni ispit se automatski priznaje. Bodovi
-      sa pismenog ispita se ra£unaju po formuli
+      <item>Studentima <strong|koji poloºe sve kolokvijume> (tokom semestra,
+      u junskom ili julskom ispitnom roku) pismeni ispit se automatski
+      priznaje. Bodovi sa pismenog ispita se ra£unaju po formuli
 
       <\equation*>
         Z= 50+K1+K2+K3
@@ -155,7 +155,7 @@
       upisati ocenu spram osvojenog broja bodova (6, 7 ili £ak 8), bez
       polaganja usmenog ispita.\ 
     </itemize>
-  </hidden>|<\hidden>
+  </shown>|<\hidden>
     <tit|Ograni£enja>
 
     <\itemize>
@@ -184,7 +184,7 @@
       eventualne dodatne bodove, kao i na pravo da ispit poloºe bez polaganja
       usmenog ispita.
     </itemize>
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <tit|Literatura>
 
     \;
@@ -201,7 +201,7 @@
     R. C. Dorf & R. H. Bishop. \PModern Control Systems\Q
 
     Mili¢ R. Stoji¢. \PKontinualni sistemi automatskog upravljanja\Q
-  </shown>>
+  </hidden>>
 </body>
 
 <\initial>
