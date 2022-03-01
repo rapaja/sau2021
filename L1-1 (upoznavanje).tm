@@ -3,7 +3,7 @@
 <style|<tuple|beamer|croatian>>
 
 <\body>
-  <screens|<\hidden>
+  <screens|<\shown>
     \;
 
     \;
@@ -27,7 +27,7 @@
     <|author-data>
       \;
     </author-data>>>
-  </hidden>|<\hidden>
+  </shown>|<\hidden>
     <tit|Osnovni podaci o izvoža£ima nastave>
 
     <\padded-center>
@@ -128,7 +128,7 @@
       <item>Dodatni bodovi vaºe do kraja ²kolske godine, ta£nije do 30. 9. u
       pono¢.
     </itemize>
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <tit|Olak²ice>
 
     <\itemize>
@@ -145,7 +145,7 @@
       priznaje. Bodovi sa pismenog ispita se ra£unaju po formuli
 
       <\equation*>
-        Z= 50+K1+K2+K3
+        Z= 50+2<around*|(|K1+K2+K3-15|)>
       </equation*>
 
       <item>Pismeni ispit poloºen na prethodni na£in (na osnovu poloºenih
@@ -153,9 +153,12 @@
 
       <item>Studenti koji poloºe pismeni ispit na prethodni na£in mogu
       upisati ocenu spram osvojenog broja bodova (6, 7 ili £ak 8), bez
-      polaganja usmenog ispita.\ 
+      polaganja usmenog ispita. <with|font-shape|italic|Kandidatima koji na
+      ovaj na£in osvoje ta£no 50 bodova (tako ²to kolokvijume poloºe sa
+      minimalnih 15) jedan nedostaju¢i bod do ocene 6 ¢e biti dodat bez
+      dodatnog ispitivanja.>
     </itemize>
-  </shown>|<\hidden>
+  </hidden>|<\hidden>
     <tit|Ograni£enja>
 
     <\itemize>
