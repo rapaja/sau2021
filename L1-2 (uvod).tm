@@ -1,4 +1,4 @@
-<TeXmacs|1.99.18>
+<TeXmacs|2.1>
 
 <style|<tuple|beamer|croatian>>
 
@@ -8,12 +8,9 @@
 
     \;
 
-    \;
-
     <doc-data|<doc-title|Uvod u sisteme automatskog
-    upravljanja>|<doc-subtitle|SAU L1-2 &
-    L2-1>|<doc-author|<\author-data|<author-name|Milan R.
-    Rapai¢>|<\author-affiliation>
+    upravljanja>|<doc-subtitle|SAU L2-1>|<doc-author|<author-data|<author-name|Milan
+    R. Rapai¢>|<\author-affiliation>
       Katedra za automatsko upravljanje
 
       Departman za ra£unarstvo i automatiku
@@ -23,38 +20,13 @@
       Univerzitet u Novom Sadu
 
       \;
-    </author-affiliation>|<author-email|rapaja@uns.ac.rs>>
-      \;
-    <|author-data>
-      \;
-    </author-data>>>
+    </author-affiliation>|<author-email|rapaja@uns.ac.rs>>>>
   </hidden>|<\hidden>
-    <tit|Ciljevi uvodnih £asova>
-
-    <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.450001gh>>|gr-geometry|<tuple|geometry|1par|0.496507par|center>|<graphics||<\document-at>
-      1. Upoznati se sa osnovnim primerima, zadacima i problemima
-      upravljanja.
-    </document-at|<point|-6.10654|3.1988>>|<\document-at>
-      2. Definisati koncept <with|font-series|bold|OSNOVNOG KOLA>
-      <with|font-series|bold|S>istema <with|font-series|bold|A>utomatskog
-      <with|font-series|bold|U>pravljanja
-    </document-at|<point|-5.38963843467603|2.39629193700573>>|<\document-at>
-      3. Upoznati se sa osnovnim principima rada
-      <with|font-series|bold|upravlja£kih> urežaja
-    </document-at|<point|-3.66692606246899|-0.353627812417926>>|<\document-at>
-      4. Definisati okvire i ciljeva predmeta\ 
-
-      <with|font-series|bold|\PSistemi automatskog upravljanja\Q>
-    </document-at|<point|-2.77881968425046|-1.03843273056234>>|<\document-at>
-      5. Izvr²iti <with|font-series|bold|razvrstavanje sistema prema tipu
-      modela> pomo¢u
-
-      kojih ih opisujemo.
-    </document-at|<point|-2.04051|-2.19705>>>>
-  </hidden>|<\hidden>
-    <tit|Upravljanje: <strong|’ta je?> i <strong|ƒemu sluºi?>>
+    <tit|Uvodni primer>
 
     \;
+  </hidden>|<\shown>
+    <tit|Neki video materijali koje bih ZAISTA voleo da pogledate>
 
     \;
 
@@ -65,7 +37,17 @@
     </padded-center>
 
     <\padded-center>
-      \;
+      PID Control - A brief introduction - YouTube
+    </padded-center>
+
+    <\padded-center>
+      <hlink|https://www.youtube.com/watch?v=UR0hOmjaHp0|https://www.youtube.com/watch?v=UR0hOmjaHp0>
+
+      \ 
+    </padded-center>
+
+    <\padded-center>
+      I neki na koje moºete baciti pogled<text-dots>
     </padded-center>
 
     <\padded-center>
@@ -75,7 +57,7 @@
     <\padded-center>
       <hlink|https://www.youtube.com/watch?v=Im88eVfkeBo|https://www.youtube.com/watch?v=Im88eVfkeBo>
     </padded-center>
-  </hidden>|<\hidden>
+  </shown>|<\hidden>
     <tit|Zadatak (automatskog ili autonomnog) odlu£ivanja>
 
     <\gr-screen>
@@ -637,7 +619,7 @@
       matemati£ki modeli sa kojim ¢emo se sretati jesu <strong|obi£ne,
       linearne diferencijalne jedna£ine sa konstantnim koeficijentima>.
     </ornamented>
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <tit|Matemati£ki modeli: prostor stanja i operatorski modeli>
 
     \;
@@ -658,7 +640,7 @@
     <\framed>
       U okviru ovog predmeta bavi¢emo se i jednom i drugom klasom modela.
     </framed>
-  </shown>>
+  </hidden>>
 </body>
 
 <\initial>
