@@ -1,17 +1,17 @@
-<TeXmacs|1.99.18>
+<TeXmacs|2.1>
 
 <style|<tuple|beamer|croatian>>
 
 <\body>
-  <screens|<\hidden>
+  <screens|<\shown>
     \;
 
     \;
 
     \;
 
-    <doc-data|<doc-title|Laplasova transformacija>|<doc-subtitle|SAU L2-2 &
-    L3-1>|<doc-author|<\author-data|<author-name|Milan R.
+    <doc-data|<doc-title|Laplasova transformacija>|<doc-subtitle|SAU
+    L3-1>|<doc-author|<author-data|<author-name|Milan R.
     Rapai¢>|<\author-affiliation>
       Katedra za automatsko upravljanje
 
@@ -22,12 +22,8 @@
       Univerzitet u Novom Sadu
 
       \;
-    </author-affiliation>|<author-email|rapaja@uns.ac.rs>>
-      \;
-    <|author-data>
-      \;
-    </author-data>>>
-  </hidden>|<\hidden>
+    </author-affiliation>|<author-email|rapaja@uns.ac.rs>>>>
+  </shown>|<\hidden>
     <tit|Primer 1: Primena na re²avanje obi£ne dif. j-ne>
 
     \;
@@ -118,14 +114,8 @@
   </hidden>|<\hidden>
     <tit|Poreklo Laplasove transformacije: Primeri 1 i 2>
 
-    \;
-
     <\equation*>
-      <wide|x|\<dot\>>=u
-    </equation*>
-
-    <\equation*>
-      D x=u\<Rightarrow\>x=<frac|1|D>u
+      <wide|x|\<dot\>>=u\<Rightarrow\>D x=u\<Rightarrow\>x=<frac|1|D>u
     </equation*>
 
     <\equation*>
@@ -230,7 +220,7 @@
     <tit|Impulsno razlaganje signala>
 
     <\gr-screen>
-      <with|gr-mode|<tuple|group-edit|edit-props>|gr-frame|<tuple|scale|1cm|<tuple|0gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-color|red|gr-dash-style|10|<graphics||<with|arrow-end|\<gtr\>|<line|<point|0.6|-3>|<point|12.0|-3.0>>>|<math-at|t|<point|11.8|-3.3>>|<math-at|f<around*|(|t|)>|<point|1.2|-0.3>>|<with|arrow-end|\<gtr\>|<line|<point|1|-3.3>|<point|1.0|-2.0>|<point|1.0|-0.2>>>|<with|line-width|2ln|color|dark
+      <with|gr-mode|<tuple|group-edit|move>|gr-frame|<tuple|scale|1cm|<tuple|0gw|0.940011gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-color|red|gr-dash-style|10|<graphics||<with|arrow-end|\<gtr\>|<line|<point|0.6|-3>|<point|12.0|-3.0>>>|<math-at|t|<point|11.8|-3.3>>|<math-at|f<around*|(|t|)>|<point|1.2|-0.3>>|<with|arrow-end|\<gtr\>|<line|<point|1|-3.3>|<point|1.0|-2.0>|<point|1.0|-0.2>>>|<with|line-width|2ln|color|dark
       blue|<spline|<point|1|-2>|<point|2.8|-1.0>|<point|5.8|-1.5>|<point|9.3|-2.6>|<point|11.6|-2.9>>>|<with|color|dark
       red|<point|2|-1.34045>>|<with|color|dark
       red|<point|3|-0.945753>>|<with|color|dark
@@ -238,11 +228,11 @@
       red|<point|5|-1.21718>>|<with|color|dark
       red|<point|6|-1.5716>>|<with|color|dark
       red|<point|7|-1.93436>>|<with|color|dark
-      red|<point|8|-2.28239>>|<with|color|red|<math-at|T|<point|1.5|-3.3>>>|<with|color|red|<math-at|T|<point|2.3|-3.3>>>|<with|color|red|<math-at|T|<point|3.3|-3.3>>>|<with|color|red|dash-style|10|<cline|<point|1.0|-2.0>|<point|2.0|-2.0>|<point|2.0|-3.0>|<point|1.0|-3.0>>>|<with|color|red|dash-style|10|<cline|<point|3.0|-1.3>|<point|2.0|-1.34045>|<point|2.0|-3.0>|<point|3.0|-3.0>>>|<with|color|red|dash-style|10|<cline|<point|3.0|-0.945753>|<point|4.0|-0.901202>|<point|4.0|-3.0>|<point|3.0|-3.0>>>|<with|color|red|<math-at|f<around*|(|t|)>\<approx\>f<around*|(|0|)><around*|(|h<around*|(|t|)>-h<around*|(|t-T|)>|)>+f<around*|(|T|)><around*|(|h<around*|(|t-T|)>-h<around*|(|t-2T|)>|)>+\<cdots\>+|<point|1.6|-4.3>>>|<with|color|red|<math-at|f<around*|(|t|)>\<approx\><big|sum><rsup|\<infty\>><rsub|k=0>f<around*|(|k
+      red|<point|8|-2.28239>>|<with|color|red|<math-at|T|<point|1.5|-3.3>>>|<with|color|red|<math-at|T|<point|2.3|-3.3>>>|<with|color|red|<math-at|T|<point|3.3|-3.3>>>|<with|color|red|dash-style|10|<cline|<point|1.0|-2.0>|<point|2.0|-2.0>|<point|2.0|-3.0>|<point|1.0|-3.0>>>|<with|color|red|dash-style|10|<cline|<point|3.0|-1.3>|<point|2.0|-1.34045>|<point|2.0|-3.0>|<point|3.0|-3.0>>>|<with|color|red|dash-style|10|<cline|<point|3.0|-0.945753>|<point|4.0|-0.901202>|<point|4.0|-3.0>|<point|3.0|-3.0>>>|<with|color|red|<math-at|f<around*|(|t|)>\<approx\>f<around*|(|0|)><around*|(|h<around*|(|t|)>-h<around*|(|t-T|)>|)>+f<around*|(|T|)><around*|(|h<around*|(|t-T|)>-h<around*|(|t-2T|)>|)>+\<cdots\>+|<point|3.00000778187407|-3.80000875460833>>>|<with|color|red|<math-at|f<around*|(|t|)>\<approx\><big|sum><rsup|\<infty\>><rsub|k=0>f<around*|(|k
       T|)><around*|(|h<around*|(|t-k T|)>-h<around*|(|t-k
-      T-T|)>|)>|<point|1.6|-5.2>>>|<with|color|red|<math-at|f<around*|(|t|)>=lim<rsub|T\<rightarrow\>0><big|sum><rsup|\<infty\>><rsub|k=0>f<around*|(|k
+      T-T|)>|)>|<point|3.00000583640555|-4.50000778187407>>>|<with|color|red|<math-at|f<around*|(|t|)>=lim<rsub|T\<rightarrow\>0><big|sum><rsup|\<infty\>><rsub|k=0>f<around*|(|k
       T|)><frac|h<around*|(|t-k T|)>-h<around*|(|t-k
-      T-T|)>|T>T=<big|int><rsup|\<infty\>><rsub|0>f<around*|(|\<tau\>|)><wide|h|\<dot\>><around*|(|t-\<tau\>|)>d\<tau\>|<point|1.6|-6>>>|<with|color|black|<\document-at>
+      T-T|)>|T>T=<big|int><rsup|\<infty\>><rsub|0>f<around*|(|\<tau\>|)><wide|h|\<dot\>><around*|(|t-\<tau\>|)>d\<tau\>|<point|3.0|-5.2>>>|<with|color|black|<\document-at>
         Kako <math|T> teºi nuli, tako
 
         tako aproksimacija postaje bolja!
@@ -250,8 +240,6 @@
     </gr-screen>
   </hidden>|<\hidden>
     <tit|Impulsno razlaganje signala - Pojam <math|\<delta\>> impulsa>
-
-    \;
 
     <\equation*>
       f<around*|(|t|)>=<big|int><rsup|\<infty\>><rsub|0>f<around*|(|\<tau\>|)><wide|h|\<dot\>><around*|(|t-\<tau\>|)>
@@ -265,16 +253,18 @@
       signalu, tako
 
       desni signal postaje sve bliºi idealnom jedini£nom impulsu.
-    </document-at|<point|-6.1|1.8>>>>
+    </document-at|<point|-6.1|1.8>>|<\document-at>
+      \;
+    </document-at|<point|-0.2|-0.7>>>>
+
+    \;
 
     <\equation*>
-      \<delta\>\<equiv\><wide|h|\<dot\>>
-    </equation*>
-
-    <\equation*>
-      f<around*|(|t|)>=<big|int><rsup|\<infty\>><rsub|0>f<around*|(|\<tau\>|)>\<delta\><around*|(|t-\<tau\>|)>
+      \<delta\>\<equiv\><wide|h|\<dot\>>\<Rightarrow\>f<around*|(|t|)>=<big|int><rsup|\<infty\>><rsub|0>f<around*|(|\<tau\>|)>\<delta\><around*|(|t-\<tau\>|)>
       d \<tau\>=<around*|(|f\<ast\>\<delta\>|)><around*|(|t|)>
     </equation*>
+
+    \;
   </hidden>|<\hidden>
     <tit|Poreklo Laplasove transformacije>
 
@@ -583,7 +573,7 @@
     <\equation*>
       G<around*|(|s|)>=<frac|Y<around*|(|s|)>|U<around*|(|s|)>>=<frac|b<rsub|m>s<rsup|m>+\<cdots\>+b<rsub|1>s+b<rsub|0>|s<rsup|n>+a<rsub|n-1>s<rsup|n-1>+\<cdots\>+a<rsub|1>s+a<rsub|0>>
     </equation*>
-  </hidden>|<\shown>
+  </hidden>|<\hidden>
     <tit|Funkcija prenosa \U Linearni, stacionarni sistemi sa konc. par.>
 
     \;
@@ -607,7 +597,7 @@
     Step odziv (dakle veli£ina koju bi smo trebali jednostavno
     eksperimentalno odrediti) ovakvog sistema je delta impuls, ²to je signal
     koji je fizi£ki neostvariv.
-  </shown>>
+  </hidden>>
 </body>
 
 <\initial>
@@ -615,7 +605,7 @@
     <associate|info-flag|minimal>
     <associate|page-height|auto>
     <associate|page-medium|paper>
-    <associate|page-type|8:5>
+    <associate|page-type|16:9>
     <associate|page-width|auto>
   </collection>
 </initial>
