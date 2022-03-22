@@ -3,7 +3,7 @@
 <style|<tuple|beamer|croatian>>
 
 <\body>
-  <screens|<\shown>
+  <screens|<\hidden>
     \;
 
     \;
@@ -23,7 +23,7 @@
 
       \;
     </author-affiliation>|<author-email|rapaja@uns.ac.rs>>>>
-  </shown>|<\hidden>
+  </hidden>|<\hidden>
     <tit|Primer 1: Primena na re²avanje obi£ne dif. j-ne>
 
     \;
@@ -332,16 +332,7 @@
       a<rsub|i>t>=e<rsup|a<rsub|r>t><around*|(|cos<around*|(|a<rsub|i>t|)>+j
       sin<around*|(|a<rsub|i>t|)>|)>
     </equation*>
-  </hidden>|<\hidden>
-    <tit|Formalna definicija Laplasove transformacije>
-
-    <\gr-screen>
-      <with|gr-mode|<tuple|edit|document-at>|gr-frame|<tuple|scale|1cm|<tuple|0gw|1gh>>|gr-geometry|<tuple|geometry|1gpar|1gpag|axis>|gr-color|red|gr-arrow-end|\<gtr\>|<graphics||<cspline|<point|4.32909|-1.14236>|<point|2.66999017538399|-2.27540052333103>|<point|7.677626139315|-5.20916704765425>>|<math-at|f|<point|2.8622|-0.54549>>|<cspline|<point|8.8309|-1.23341>|<point|5.91736622472107|-1.60771572814023>|<point|5.50259233679951|-3.89403032985419>|<point|5.9072497884303|-5.72510529848351>>|<math-at|g|<point|8.68927|-2.42715>>|<with|color|red|fill-color|#faa|<line|<point|5.51776|-2.08756>|<point|5.43552695025729|-2.35948391323548>|<point|5.44537774151024|-2.73220918020566>|<point|5.48391995615486|-3.19532826890958>|<point|5.49945464705744|-3.58065361199347>|<point|5.50259233679952|-3.89403032985418>|<point|5.49887028662858|-4.17923028718709>|<point|5.49388345957411|-4.35019151600855>|<point|5.79021776584847|-4.51861267132374>|<point|6.63245898659387|-4.95603593056769>|<point|7.26800723377746|-4.12731588419723>|<point|6.60497492543561|-3.27719816561684>|<point|5.98864975656732|-2.57187420551619>|<point|5.51776457779474|-2.08755927482063>>>|<with|arrow-end|\<gtr\>|color|red|<spline|<point|9.57952|-3.88391>|<point|8.0114685369104|-3.81309883952803>|<point|6.39283873038725|-4.17729054599574>>>|<with|color|red|<math-at|f\<equiv\>g|<point|9.70091|-3.6917>>>|<with|color|red|<\document-at>
-        Laplasovu transformaciju treba razumeti kao analiti£ko produºenje
-        definicionog integrala.
-      </document-at|<point|0.20158|-6.04883>>>>>
-    </gr-screen>
-  </hidden>|<\hidden>
+  </hidden>|<\shown>
     <tit|Laplasova transformacija izvoda>
 
     <\eqnarray*>
@@ -366,7 +357,7 @@
       \<cal-L\><around*|{|f<rsup|<around*|(|n|)>><around*|(|t|)>|}>=s<rsup|n>F<around*|(|s|)><below|<wide*|-s<rsup|n-1>f<around*|(|0|)>-s<rsup|n-2><wide|f|\<dot\>><around*|(|0|)>-\<cdots\>-f<rsup|<around*|(|n-1|)>><around*|(|0|)>|\<wide-underbrace\>>|pocetni
       uslovi>
     </equation*>
-  </hidden>|<\hidden>
+  </shown>|<\hidden>
     <tit|Po£etni uslovi>
 
     \;
